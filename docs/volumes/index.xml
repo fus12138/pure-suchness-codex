@@ -5,28 +5,7 @@
     <link>https://fus12138.github.io/pure-suchness-codex/volumes/index.html</link>
     <description>这里汇集《纯质论》三卷之纲要与正式文本节选。</description>
     <generator>Hugo</generator>
-    <language>en-us</language>
+    <language>zh-cn</language>
     <atom:link href="https://fus12138.github.io/pure-suchness-codex/volumes/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>卷一 · 显现之基</title>
-      <link>https://fus12138.github.io/pure-suchness-codex/volumes/volume1/index.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://fus12138.github.io/pure-suchness-codex/volumes/volume1/index.html</guid>
-      <description>这里将放置《卷一》导言与章节索引（稍后从你的论文抽取正式段落）。</description>
-    </item>
-    <item>
-      <title>卷二 · 生成之道</title>
-      <link>https://fus12138.github.io/pure-suchness-codex/volumes/volume2/index.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://fus12138.github.io/pure-suchness-codex/volumes/volume2/index.html</guid>
-      <description>占位文本。</description>
-    </item>
-    <item>
-      <title>卷三 · 明性反照</title>
-      <link>https://fus12138.github.io/pure-suchness-codex/volumes/volume3/index.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://fus12138.github.io/pure-suchness-codex/volumes/volume3/index.html</guid>
-      <description>占位文本。</description>
-    </item>
   </channel>
 </rss>

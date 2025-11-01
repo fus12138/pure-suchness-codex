@@ -1,51 +1,52 @@
-publishDir = "docs"
 baseURL = "https://fus12138.github.io/pure-suchness-codex/"
-languageCode = "en-us"
+languageCode = "zh-cn"
 title = "PURE SUCHNESS CODEX"
 theme = "hugo-theme-relearn"
+
 defaultContentLanguage = "zh"
 hasCJKLanguage = true
-
-[params]
-  author = "Zhou Luo (周罗)"
-  description = "The Metaphysical Foundation of Luminosity and Manifestation"
-  keywords = "Metaphysics, Luminosity, Pure Suchness, Ontology, Philosophy"
-  showVisitedLinks = true
-  disableBreadcrumb = false
-  disableNextPrev = false
-  disableLandingPageButton = false
+summaryLength = 120
+paginate = 10
 
 [outputs]
-  home = [ "HTML", "RSS", "JSON" ]
+  home = ["HTML","RSS"]   # 去掉 JSON，清掉警告
+
+[params]
+  disableLandingPageButton = false
+  disableBreadcrumb = false
+  disableNextPrev = false
+  showVisitedLinks = true
+
+[params.author]
+  name = "Zhou Luo（周罗）"
 
 [menu]
-
   [[menu.main]]
-    name = "Home 首页"
+    name = "首页"
     url = "/"
     weight = 1
 
   [[menu.main]]
-    name = "Volumes 法典"
+    name = "三卷法典"
     url = "/volumes/"
     weight = 2
 
-[[menu.main]]
+  [[menu.main]]
     name = "明性之诗"
     url = "/poems/"
     weight = 3
 
   [[menu.main]]
-    name = "Essays 论文"
+    name = "论文"
     url = "/essays/"
     weight = 4
 
   [[menu.main]]
-    name = "Meditations 明性实践修行"
+    name = "明性实践与修行"
     url = "/meditations/"
     weight = 5
 
   [[menu.main]]
-    name = "About 关于"
+    name = "关于作者"
     url = "/about/"
     weight = 6

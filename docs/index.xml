@@ -3,10 +3,9 @@
   <channel>
     <title>PURE SUCHNESS CODEX</title>
     <link>https://fus12138.github.io/pure-suchness-codex/index.html</link>
-    <description>形而上学的重奠与明性的宣言&#xA;“明欲自见，世界由此得以显现。”&#xA;欢迎来到周罗（Zhou Luo）的哲学体系档案。&#xA;本网站收录：法典三卷、论文、明性之诗、论文、明性实践修行 与 关于作者。</description>
+    <description>The Metaphysical Foundation of Luminosity and Manifestation</description>
     <generator>Hugo</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sat, 01 Nov 2025 00:00:00 +0000</lastBuildDate>
+    <language>zh-cn</language>
     <atom:link href="https://fus12138.github.io/pure-suchness-codex/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>三卷法典</title>
@@ -18,30 +17,9 @@
     <item>
       <title>明性之诗</title>
       <link>https://fus12138.github.io/pure-suchness-codex/poems/index.html</link>
-      <pubDate>Sat, 01 Nov 2025 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://fus12138.github.io/pure-suchness-codex/poems/index.html</guid>
-      <description>在这里，我以诗言明：让光自述其来，让显现自诞其声。&#xA;（本页将收录《明性之诗》及后续诗作。）</description>
-    </item>
-    <item>
-      <title>Essays · 论文区</title>
-      <link>https://fus12138.github.io/pure-suchness-codex/essays/index.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://fus12138.github.io/pure-suchness-codex/essays/index.html</guid>
-      <description>在此发布/链接你的中英文论文（期刊版、Zenodo、Archive 版本等）。</description>
-    </item>
-    <item>
-      <title>Meditations · 明性修行</title>
-      <link>https://fus12138.github.io/pure-suchness-codex/meditations/index.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://fus12138.github.io/pure-suchness-codex/meditations/index.html</guid>
-      <description>四周冥想规划、每日诵读、明性引导词与音频链接将在此发布。</description>
-    </item>
-    <item>
-      <title>About · 关于作者</title>
-      <link>https://fus12138.github.io/pure-suchness-codex/about/index.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://fus12138.github.io/pure-suchness-codex/about/index.html</guid>
-      <description>周罗（Zhou Luo），从事形而上学的重新奠基工作。&#xA;联系：your-email@example.com</description>
+      <description>收录关于明性的短章与长诗。每首诗，都是一次对“自明之光”的呼吸与呈露。</description>
     </item>
   </channel>
 </rss>
