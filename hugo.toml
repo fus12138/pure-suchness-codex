@@ -1,0 +1,50 @@
+baseURL = "https://fus12138.github.io/"
+languageCode = "en-us"
+title = "PURE SUCHNESS CODEX"
+theme = "hugo-theme-relearn"
+defaultContentLanguage = "zh"
+hasCJKLanguage = true
+
+[params]
+  author = "Zhou Luo (周罗)"
+  description = "The Metaphysical Foundation of Luminosity and Manifestation"
+  keywords = "Metaphysics, Luminosity, Pure Suchness, Ontology, Philosophy"
+  showVisitedLinks = true
+  disableBreadcrumb = false
+  disableNextPrev = false
+  disableLandingPageButton = false
+
+[outputs]
+  home = [ "HTML", "RSS", "JSON" ]
+
+[menu]
+
+  [[menu.main]]
+    name = "Home 首页"
+    url = "/"
+    weight = 1
+
+  [[menu.main]]
+    name = "Volumes 法典"
+    url = "/volumes/"
+    weight = 2
+
+[[menu.main]]
+    name = "明性之诗"
+    url = "/poems/"
+    weight = 3
+
+  [[menu.main]]
+    name = "Essays 论文"
+    url = "/essays/"
+    weight = 4
+
+  [[menu.main]]
+    name = "Meditations 明性实践修行"
+    url = "/meditations/"
+    weight = 5
+
+  [[menu.main]]
+    name = "About 关于"
+    url = "/about/"
+    weight = 6

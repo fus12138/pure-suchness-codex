@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>明性之诗 :: PURE SUCHNESS CODEX</title>
+    <link>https://fus12138.github.io/poems/index.html</link>
+    <description>在这里，我以诗言明：让光自述其来，让显现自诞其声。&#xA;（本页将收录《明性之诗》及后续诗作。）</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 01 Nov 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://fus12138.github.io/poems/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>光的第一人称</title>
+      <link>https://fus12138.github.io/poems/first-poem/index.html</link>
+      <pubDate>Sat, 01 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>https://fus12138.github.io/poems/first-poem/index.html</guid>
+      <description>我不是照亮之物，&#xA;我即被照亮的一切能——&#xA;当你抬眼，我已在你之前；&#xA;当你落笔，我即在字的之间。</description>
+    </item>
+  </channel>
+</rss>
