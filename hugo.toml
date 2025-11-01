@@ -1,4 +1,5 @@
-baseURL = "https://fus12138.github.io/"
+publishDir = "docs"
+baseURL = "https://fus12138.github.io/pure-suchness-codex/"
 languageCode = "en-us"
 title = "PURE SUCHNESS CODEX"
 theme = "hugo-theme-relearn"

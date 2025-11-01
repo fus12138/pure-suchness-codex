@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Essays · 论文区 :: PURE SUCHNESS CODEX</title>
-    <link>https://fus12138.github.io/essays/index.html</link>
+    <link>https://fus12138.github.io/pure-suchness-codex/essays/index.html</link>
     <description>在此发布/链接你的中英文论文（期刊版、Zenodo、Archive 版本等）。</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://fus12138.github.io/essays/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://fus12138.github.io/pure-suchness-codex/essays/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
