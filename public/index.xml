@@ -2,45 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>PURE SUCHNESS CODEX</title>
-    <link>http://localhost:1313/index.html</link>
+    <link>https://fus12138.github.io/index.html</link>
     <description>形而上学的重奠与明性的宣言&#xA;“明欲自见，世界由此得以显现。”&#xA;欢迎来到周罗（Zhou Luo）的哲学体系档案。&#xA;本网站收录：法典三卷、论文、明性之诗、论文、明性实践修行 与 关于作者。</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 01 Nov 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://fus12138.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>三卷法典</title>
-      <link>http://localhost:1313/volumes/index.html</link>
+      <link>https://fus12138.github.io/volumes/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/volumes/index.html</guid>
+      <guid>https://fus12138.github.io/volumes/index.html</guid>
       <description>这里汇集《纯质论》三卷之纲要与正式文本节选。</description>
     </item>
     <item>
       <title>明性之诗</title>
-      <link>http://localhost:1313/poems/index.html</link>
+      <link>https://fus12138.github.io/poems/index.html</link>
       <pubDate>Sat, 01 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/poems/index.html</guid>
+      <guid>https://fus12138.github.io/poems/index.html</guid>
       <description>在这里，我以诗言明：让光自述其来，让显现自诞其声。&#xA;（本页将收录《明性之诗》及后续诗作。）</description>
     </item>
     <item>
       <title>Essays · 论文区</title>
-      <link>http://localhost:1313/essays/index.html</link>
+      <link>https://fus12138.github.io/essays/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/essays/index.html</guid>
+      <guid>https://fus12138.github.io/essays/index.html</guid>
       <description>在此发布/链接你的中英文论文（期刊版、Zenodo、Archive 版本等）。</description>
     </item>
     <item>
       <title>Meditations · 明性修行</title>
-      <link>http://localhost:1313/meditations/index.html</link>
+      <link>https://fus12138.github.io/meditations/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/meditations/index.html</guid>
+      <guid>https://fus12138.github.io/meditations/index.html</guid>
       <description>四周冥想规划、每日诵读、明性引导词与音频链接将在此发布。</description>
     </item>
     <item>
       <title>About · 关于作者</title>
-      <link>http://localhost:1313/about/index.html</link>
+      <link>https://fus12138.github.io/about/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/about/index.html</guid>
+      <guid>https://fus12138.github.io/about/index.html</guid>
       <description>周罗（Zhou Luo），从事形而上学的重新奠基工作。&#xA;联系：your-email@example.com</description>
     </item>
   </channel>

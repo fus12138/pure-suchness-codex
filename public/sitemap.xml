@@ -1,42 +1,42 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:50541/index.html</loc>
+    <loc>https://fus12138.github.io/index.html</loc>
     <lastmod>2025-11-01T00:00:00+00:00</lastmod>
   </url>
   <url>
-    <loc>http://localhost:50541/poems/first-poem/index.html</loc>
+    <loc>https://fus12138.github.io/poems/first-poem/index.html</loc>
     <lastmod>2025-11-01T00:00:00+00:00</lastmod>
   </url>
   <url>
-    <loc>http://localhost:50541/volumes/volume1/index.html</loc>
+    <loc>https://fus12138.github.io/volumes/volume1/index.html</loc>
   </url>
   <url>
-    <loc>http://localhost:50541/volumes/volume2/index.html</loc>
+    <loc>https://fus12138.github.io/volumes/volume2/index.html</loc>
   </url>
   <url>
-    <loc>http://localhost:50541/volumes/index.html</loc>
+    <loc>https://fus12138.github.io/volumes/index.html</loc>
   </url>
   <url>
-    <loc>http://localhost:50541/poems/index.html</loc>
+    <loc>https://fus12138.github.io/poems/index.html</loc>
     <lastmod>2025-11-01T00:00:00+00:00</lastmod>
   </url>
   <url>
-    <loc>http://localhost:50541/essays/index.html</loc>
+    <loc>https://fus12138.github.io/essays/index.html</loc>
   </url>
   <url>
-    <loc>http://localhost:50541/volumes/volume3/index.html</loc>
+    <loc>https://fus12138.github.io/volumes/volume3/index.html</loc>
   </url>
   <url>
-    <loc>http://localhost:50541/meditations/index.html</loc>
+    <loc>https://fus12138.github.io/meditations/index.html</loc>
   </url>
   <url>
-    <loc>http://localhost:50541/about/index.html</loc>
+    <loc>https://fus12138.github.io/about/index.html</loc>
   </url>
   <url>
-    <loc>http://localhost:50541/categories/index.html</loc>
+    <loc>https://fus12138.github.io/categories/index.html</loc>
   </url>
   <url>
-    <loc>http://localhost:50541/tags/index.html</loc>
+    <loc>https://fus12138.github.io/tags/index.html</loc>
   </url>
 </urlset>

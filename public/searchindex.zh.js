@@ -60,7 +60,7 @@ var relearn_searchindex = [
     "content": "占位文本。",
     "description": "占位文本。",
     "tags": [],
-    "title": "卷三 · 场与曲率",
+    "title": "卷三 · 明性反照",
     "uri": "/volumes/volume3/index.html"
   },
   {
