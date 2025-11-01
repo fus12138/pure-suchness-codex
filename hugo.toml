@@ -6,7 +6,8 @@ theme = "hugo-theme-relearn"
 defaultContentLanguage = "zh"
 hasCJKLanguage = true
 summaryLength = 120
-paginate = 10
+[pagination]
+  pagerSize = 10
 
 [outputs]
   home = ["HTML","RSS"]   # 去掉 JSON，清掉警告
