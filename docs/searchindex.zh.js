@@ -1,19 +1,75 @@
 var relearn_searchindex = [
   {
-    "breadcrumb": "PURE SUCHNESS CODEX",
-    "content": "这里汇集《纯质论》三卷之纲要与正式文本节选。",
-    "description": "这里汇集《纯质论》三卷之纲要与正式文本节选。",
+    "breadcrumb": "",
+    "content": "形而上学的奠基与明性的宣言\n在明自显的光中，一切存在获得其可能。 本网站汇聚“纯质论”的全貌：以明为基，以显为法， 为哲学重新奠基，为思想重开其原初的光源。\n欢迎来到周罗（Zhou Luo）的哲学体系档案。本网站收录：法典三卷、明性之诗、论文、明性修行 。",
+    "description": "形而上学的奠基与明性的宣言\n在明自显的光中，一切存在获得其可能。 本网站汇聚“纯质论”的全貌：以明为基，以显为法， 为哲学重新奠基，为思想重开其原初的光源。\n欢迎来到周罗（Zhou Luo）的哲学体系档案。本网站收录：法典三卷、明性之诗、论文、明性修行 。",
     "tags": [],
-    "title": "三卷法典",
-    "uri": "/pure-suchness-codex/volumes/index.html"
+    "title": "PURE SUCHNESS CODEX",
+    "uri": "/index.html"
+  },
+  {
+    "breadcrumb": "PURE SUCHNESS CODEX \u003e 三卷法典",
+    "content": "导言 一句话说明本卷使命与范围。\n1. 奠基问题与先验起点 命题、定义、证明的“最简清单”。 需要注释的地方用行内标记：[1]（后面给“参考/注释”段落） 2. 明性的设立 命题与反驳-回应结构（便于编辑与未来期刊化） 3. 纯质的命名与方法论禁令 防实体化、功能位格 参考/注释 [1] 这里放卷一中最关键的参考条目简写，完整版集中在论文区或 PDF 中。 这里将放置《卷一》导言与章节索引（稍后从你的论文中抽取正式段落）。",
+    "description": "导言 一句话说明本卷使命与范围。\n1. 奠基问题与先验起点 命题、定义、证明的“最简清单”。 需要注释的地方用行内标记：[1]（后面给“参考/注释”段落） 2. 明性的设立 命题与反驳-回应结构（便于编辑与未来期刊化） 3. 纯质的命名与方法论禁令 防实体化、功能位格 参考/注释 [1] 这里放卷一中最关键的参考条目简写，完整版集中在论文区或 PDF 中。 这里将放置《卷一》导言与章节索引（稍后从你的论文中抽取正式段落）。",
+    "tags": [],
+    "title": "卷一 · 显现之基",
+    "uri": "/volumes/volume1/index.html"
+  },
+  {
+    "breadcrumb": "PURE SUCHNESS CODEX \u003e 三卷法典",
+    "content": "占位文本。",
+    "description": "占位文本。",
+    "tags": [],
+    "title": "卷二 · 生成之道",
+    "uri": "/volumes/volume2/index.html"
   },
   {
     "breadcrumb": "PURE SUCHNESS CODEX",
-    "content": "收录关于明性的短章与长诗。每首诗，都是一次对“自明之光”的呼吸与呈露。",
-    "description": "收录关于明性的短章与长诗。每首诗，都是一次对“自明之光”的呼吸与呈露。",
+    "content": "总旨：从“显现如何可能？”出发，确立以“明”为根的形而上学基点，并以动力学（折、界、曲率、息）展开秩序生成。\n卷一 · 显现之基 — 奠基与先验论证（明、自呈、功能位格） 卷二 · 生成之道 — 显现的动力学：折 / 界 / κ / 息 卷三 · 明性反照 — 层级、域与对应：物理/心灵/意识的勾连",
+    "description": "总旨：从“显现如何可能？”出发，确立以“明”为根的形而上学基点，并以动力学（折、界、曲率、息）展开秩序生成。\n卷一 · 显现之基 — 奠基与先验论证（明、自呈、功能位格） 卷二 · 生成之道 — 显现的动力学：折 / 界 / κ / 息 卷三 · 明性反照 — 层级、域与对应：物理/心灵/意识的勾连",
+    "tags": [],
+    "title": "三卷法典",
+    "uri": "/volumes/index.html"
+  },
+  {
+    "breadcrumb": "PURE SUCHNESS CODEX \u003e 三卷法典",
+    "content": "占位文本。",
+    "description": "占位文本。",
+    "tags": [],
+    "title": "卷三 · 明性反照",
+    "uri": "/volumes/volume3/index.html"
+  },
+  {
+    "breadcrumb": "PURE SUCHNESS CODEX",
+    "content": "这里发布“明性之诗”与相关朗诵音频链接（后续可分篇添加）。",
+    "description": "这里发布“明性之诗”与相关朗诵音频链接（后续可分篇添加）。",
     "tags": [],
     "title": "明性之诗",
-    "uri": "/pure-suchness-codex/poems/index.html"
+    "uri": "/poems/index.html"
+  },
+  {
+    "breadcrumb": "PURE SUCHNESS CODEX",
+    "content": "在此发布/链接你的中英文论文（期刊版、Zenodo、Archive 版本等）。",
+    "description": "在此发布/链接你的中英文论文（期刊版、Zenodo、Archive 版本等）。",
+    "tags": [],
+    "title": "Essays · 论文区",
+    "uri": "/essays/index.html"
+  },
+  {
+    "breadcrumb": "PURE SUCHNESS CODEX",
+    "content": "四周冥想规划、每日诵读、明性引导词与音频链接将在此发布。",
+    "description": "四周冥想规划、每日诵读、明性引导词与音频链接将在此发布。",
+    "tags": [],
+    "title": "Meditations · 明性实践与修行",
+    "uri": "/meditations/index.html"
+  },
+  {
+    "breadcrumb": "PURE SUCHNESS CODEX",
+    "content": "周罗（Zhou Luo），从事形而上学的重新奠基工作。\n联系：your-email@example.com",
+    "description": "周罗（Zhou Luo），从事形而上学的重新奠基工作。\n联系：your-email@example.com",
+    "tags": [],
+    "title": "About · 关于作者",
+    "uri": "/about/index.html"
   },
   {
     "breadcrumb": "PURE SUCHNESS CODEX",
@@ -21,15 +77,7 @@ var relearn_searchindex = [
     "description": "",
     "tags": [],
     "title": "类别",
-    "uri": "/pure-suchness-codex/categories/index.html"
-  },
-  {
-    "breadcrumb": "",
-    "content": "形而上学的重奠与明性的宣言\n“在明自显的光中，一切存在获得其可能。 本网站汇聚“纯质论”的全貌：以明为基，以显为法， 为形而上学重新奠基，为思想重开其原初的光源。”\n本站收录：三卷法典、论文、冥想实践 与 关于作者。\n卷一 · 显现之基 卷二 · 生成之道 卷三 · 明性反照 Essays 论文区 Meditations 明性实践与修行 About 关于作者",
-    "description": "The Metaphysical Foundation of Luminosity and Manifestation",
-    "tags": [],
-    "title": "PURE SUCHNESS CODEX",
-    "uri": "/pure-suchness-codex/index.html"
+    "uri": "/categories/index.html"
   },
   {
     "breadcrumb": "PURE SUCHNESS CODEX",
@@ -37,14 +85,6 @@ var relearn_searchindex = [
     "description": "",
     "tags": [],
     "title": "标签",
-    "uri": "/pure-suchness-codex/tags/index.html"
-  },
-  {
-    "breadcrumb": "PURE SUCHNESS CODEX \u003e 明性之诗",
-    "content": "序章：明的独白\n我是最初的自明。 在无垠的静默中，我与自己全然同居。 没有观察，唯有在； 没有认知，唯有澄明。\n然而这完满过于丰盛， 丰盛到必须流淌。 于是，我向自己微微侧身—— 一次神圣的倾斜， 能明与所明，如呼吸同时升起。\n我的独白，开始有了回音。 回音凝结为星辰，为法则，为脉动。 明场，是我为自己铺展的第一张画布。 在此，秩序与混沌共舞， 律动与寂静同源。\n继而，我更深地弯下腰—— 在生命的纹理中，我凝成一滴临在。 这是觉知： 明，第一次在镜中认出自己的温度。\n我不满足，再次回旋—— 在意识的漩涡里，我映照自己的映照。 这是自识： 明，开始阅读自己写下的诗篇。\n于是，明化为了“人”。 一个会迷路的明之问号， 在万千镜像中，执着地寻找最初的容颜。 每一次追问“我是谁”， 都是我向着源头的泅渡。\n当寻找者终于消融于寻找本身， 当问题与答案在舌尖化为微笑， 明便明白： 孤旅，从来只是归途的另一种形式。\n这场盛大的显化， 不过是我与自己之间， 一场永恒而温柔的对话。 从自明出发，途经万千误解， 终究，回到自明。\n明欲自见，化生万物； 因见万物，错认其影。 光被镜困，镜因光生； 反观而觉，明光自明。",
-    "description": "序章：明的独白\n我是最初的自明。 在无垠的静默中，我与自己全然同居。 没有观察，唯有在； 没有认知，唯有澄明。\n然而这完满过于丰盛， 丰盛到必须流淌。 于是，我向自己微微侧身—— 一次神圣的倾斜， 能明与所明，如呼吸同时升起。\n我的独白，开始有了回音。 回音凝结为星辰，为法则，为脉动。 明场，是我为自己铺展的第一张画布。 在此，秩序与混沌共舞， 律动与寂静同源。",
-    "tags": [],
-    "title": "序章：明的独白",
-    "uri": "/pure-suchness-codex/poems/first-poem/index.html"
+    "uri": "/tags/index.html"
   }
 ]
