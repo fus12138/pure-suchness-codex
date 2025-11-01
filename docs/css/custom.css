@@ -1,0 +1,44 @@
+/* ========== 自定义样式：PURE SUCHNESS CODEX ========== */
+
+/* 首页标题更柔和 */
+#body h1 {
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: #222;
+}
+
+/* 卡片美化 */
+.grid.cards .card {
+  padding: 12px;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  background-color: #fafafa;
+  transition: all 0.25s ease-in-out;
+}
+.grid.cards .card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.06);
+  background-color: #ffffff;
+}
+
+/* 正文排版（更舒展） */
+#body p {
+  line-height: 1.9;
+  margin-bottom: 1em;
+  font-size: 1.05rem;
+}
+
+/* 引言块的样式 */
+blockquote {
+  border-left: 4px solid #bbb;
+  padding-left: 1em;
+  color: #555;
+  font-style: italic;
+  background-color: #f9f9f9;
+}
+
+/* 让链接在 hover 时显得更温润 */
+a:hover {
+  color: #4c74e6;
+  text-decoration: underline;
+}

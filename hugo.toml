@@ -3,51 +3,54 @@ languageCode = "zh-cn"
 title = "PURE SUCHNESS CODEX"
 theme = "hugo-theme-relearn"
 
-defaultContentLanguage = "zh"
-hasCJKLanguage = true
-summaryLength = 120
-[pagination]
-  pagerSize = 10
+# 关键：让 GitHub Pages 用子目录部署时链接不乱
+publishDir = "docs"
+relativeURLs = true
+canonifyURLs = true
 
-[outputs]
-  home = ["HTML","RSS"]   # 去掉 JSON，清掉警告
+defaultContentLanguage = "zh"
+enableRobotsTXT = true
 
 [params]
-  disableLandingPageButton = false
-  disableBreadcrumb = false
-  disableNextPrev = false
+  author = "Zhou Luo (周罗)"
+  description = "The Metaphysical Foundation of Luminosity and Manifestation"
+  keywords = "Metaphysics, Luminosity, Pure Suchness, Ontology, Philosophy"
   showVisitedLinks = true
+  disableBreadcrumb = false
+  disableSearch = false
+  disableLandingPageButton = false
+  custom_css = ["css/custom.css"]
 
-[params.author]
-  name = "Zhou Luo（周罗）"
+[outputs]
+  home = [ "HTML", "RSS", "JSON" ]
 
 [menu]
   [[menu.main]]
-    name = "首页"
+    name = "Home 首页"
     url = "/"
     weight = 1
 
   [[menu.main]]
-    name = "三卷法典"
+    name = "Volumes 法典"
     url = "/volumes/"
     weight = 2
 
   [[menu.main]]
-    name = "明性之诗"
+    name = "Poems 明性之诗"
     url = "/poems/"
     weight = 3
 
   [[menu.main]]
-    name = "论文"
+    name = "Essays 论文"
     url = "/essays/"
     weight = 4
 
   [[menu.main]]
-    name = "明性实践与修行"
+    name = "Meditations 明性实践与修行"
     url = "/meditations/"
     weight = 5
 
   [[menu.main]]
-    name = "关于作者"
+    name = "About 关于"
     url = "/about/"
     weight = 6
