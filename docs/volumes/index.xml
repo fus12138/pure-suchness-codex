@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>三卷法典 :: PURE SUCHNESS CODEX</title>
-    <link>https://fus12138.github.io/pure-suchness-codex/volumes/index.html</link>
+    <link>https://chunzhilun.cn/volumes/index.html</link>
     <description>总旨：纯质论以“显现如何可能？”为第一哲学问题，确立以“明”为终极根基的形而上学体系。本体系从显现之先验条件出发，经由纯粹逻辑演绎，揭示存在与意识得以共显的源头，并阐明明性通过“折、界、曲率、息”等动力学方式展开自身秩序的全过程。&#xA;卷一 · 明性之源与显现之基——致力于哲学的根本奠基。通过对“显现本身”的先验分析，确立“明性”作为一切显现之可能性的绝对条件，论证其“自呈性”与“功能位格”，为形而上学建立不可动摇的起点。 卷二 · 显化秩序与生成之基——展开显现的动力学谱系。探讨明性如何通过“折”（内在张力）、“界”（形式划定）、“曲率”（关系构型）与“息”（动态平衡）等基本运作，从纯粹可能性中生成出万物有序显现的世界。 卷三 · 明性反照与意识圆满——完成体系的闭环。阐明明性在不同层级与领域中的自我照亮，揭示物理世界、心灵与意识如何作为明性反照的不同模态相互勾连，最终达成存在与认知在本源上的统一。</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
-    <atom:link href="https://fus12138.github.io/pure-suchness-codex/volumes/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://chunzhilun.cn/volumes/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>卷一 · 显现之基</title>
-      <link>https://fus12138.github.io/pure-suchness-codex/volumes/volume1/index.html</link>
+      <link>https://chunzhilun.cn/volumes/volume1/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://fus12138.github.io/pure-suchness-codex/volumes/volume1/index.html</guid>
+      <guid>https://chunzhilun.cn/volumes/volume1/index.html</guid>
       <description>导言 一句话说明本卷使命与范围。&#xA;1. 奠基问题与先验起点 命题、定义、证明的“最简清单”。 需要注释的地方用行内标记：[1]（后面给“参考/注释”段落） 2. 明性的设立 命题与反驳-回应结构（便于编辑与未来期刊化） 3. 纯质的命名与方法论禁令 防实体化、功能位格 参考/注释 [1] 这里放卷一中最关键的参考条目简写，完整版集中在论文区或 PDF 中。 这里将放置《卷一》导言与章节索引（稍后从你的论文中抽取正式段落）。</description>
     </item>
     <item>
       <title>卷二 · 生成之道</title>
-      <link>https://fus12138.github.io/pure-suchness-codex/volumes/volume2/index.html</link>
+      <link>https://chunzhilun.cn/volumes/volume2/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://fus12138.github.io/pure-suchness-codex/volumes/volume2/index.html</guid>
+      <guid>https://chunzhilun.cn/volumes/volume2/index.html</guid>
       <description>占位文本。</description>
     </item>
     <item>
       <title>卷三 · 明性反照</title>
-      <link>https://fus12138.github.io/pure-suchness-codex/volumes/volume3/index.html</link>
+      <link>https://chunzhilun.cn/volumes/volume3/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://fus12138.github.io/pure-suchness-codex/volumes/volume3/index.html</guid>
+      <guid>https://chunzhilun.cn/volumes/volume3/index.html</guid>
       <description>占位文本。</description>
     </item>
   </channel>
