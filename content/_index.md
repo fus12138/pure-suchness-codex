@@ -1,5 +1,5 @@
 ﻿+++
-title = "PURE SUCHNESS CODEX"
+title = "纯质论"
 weight = 1
 chapter = true
 +++**形而上学的奠基与明性的宣言**
@@ -30,7 +30,6 @@ chapter = true
 我们回到那最初亦最终的事实：  
 **一切在明中生，一切在明中显，一切在明中归。**
 
-+++
 
 本网站，是纯质论思想的完整呈现：
 
