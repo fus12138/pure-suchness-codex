@@ -3,9 +3,9 @@ languageCode = "zh-cn"
 title = "PURE SUCHNESS CODEX"
 theme = "hugo-theme-relearn"
 
-# 关键：让 GitHub Pages 用子目录部署时链接不乱
+# GitHub Pages 项目仓库常用设置
 publishDir = "docs"
-relativeURLs = true
+relativeURLs = false
 canonifyURLs = true
 
 defaultContentLanguage = "zh"
@@ -19,10 +19,9 @@ enableRobotsTXT = true
   disableBreadcrumb = false
   disableSearch = false
   disableLandingPageButton = false
-  custom_css = ["css/custom.css"]
 
 [outputs]
-  home = [ "HTML", "RSS", "JSON" ]
+  home = ["HTML", "RSS", "JSON"]
 
 [menu]
   [[menu.main]]
@@ -54,3 +53,8 @@ enableRobotsTXT = true
     name = "About 关于"
     url = "/about/"
     weight = 6
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
