@@ -59,9 +59,9 @@
 #R-body-inner blockquote {
   border-left: 4px solid #555;       /* 左侧竖线更深灰 */
   padding: 1.2em 1.4em;
-  color: #222;                       /* 字色更深，近正文色 */
+  color: #444;                       /* 字色更深，近正文色 */
   font-style: italic;
-  background: #e8e8e8;               /* 背景更稳重的灰 */
+  background: #dcdcdc;               /* 背景更稳重的灰 */
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);  /* 增加深度阴影 */
   border-radius: 6px;
   line-height: 1.9;

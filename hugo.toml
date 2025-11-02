@@ -19,6 +19,10 @@ enableRobotsTXT = true
   disableBreadcrumb = false
   disableSearch = false
   disableLandingPageButton = false
+  [params]
+  description = "以明为基、以显为法：纯质论形而上学"
+  images = ["/images/og-cover.png"]   # 放到 static/images/ 下
+
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]
