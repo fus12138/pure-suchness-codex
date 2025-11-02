@@ -4,16 +4,7 @@
     <loc>https://chunzhilun.cn/index.html</loc>
   </url>
   <url>
-    <loc>https://chunzhilun.cn/volumes/volume1/index.html</loc>
-  </url>
-  <url>
-    <loc>https://chunzhilun.cn/volumes/volume2/index.html</loc>
-  </url>
-  <url>
     <loc>https://chunzhilun.cn/volumes/index.html</loc>
-  </url>
-  <url>
-    <loc>https://chunzhilun.cn/volumes/volume3/index.html</loc>
   </url>
   <url>
     <loc>https://chunzhilun.cn/poems/index.html</loc>
@@ -26,6 +17,15 @@
   </url>
   <url>
     <loc>https://chunzhilun.cn/about/index.html</loc>
+  </url>
+  <url>
+    <loc>https://chunzhilun.cn/volumes/volume1/index.html</loc>
+  </url>
+  <url>
+    <loc>https://chunzhilun.cn/volumes/volume2/index.html</loc>
+  </url>
+  <url>
+    <loc>https://chunzhilun.cn/volumes/volume3/index.html</loc>
   </url>
   <url>
     <loc>https://chunzhilun.cn/categories/index.html</loc>

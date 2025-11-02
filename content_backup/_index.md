@@ -1,8 +1,9 @@
 ﻿+++
-title = "PURE SUCHNESS CODEX"
+title = "纯质论"
 weight = 1
-chapter = true
-+++**形而上学的奠基与明性的宣言**
++++
+
+**形而上学的奠基与明性的宣言**
 
 > 哲学已跋涉千年，却始终在一个根本问题上徘徊：我们追问“存在是什么”，却未曾先问“存在何以显现”。一切关于物质与意识、真实与虚拟的争论，都建立在一个未被言明的前提之上——万物首先必须“被显现”，才能进入认知与言说的领域。
 
@@ -53,6 +54,5 @@ chapter = true
   <a class="card" href="/meditations/"><strong>Meditations · 明性修行</strong><br/>意识光谱与修行四阶</a>
   <a class="card" href="/about/"><strong>About · 关于作者</strong><br/>作者简介与联系</a>
 </div>
-
 
 

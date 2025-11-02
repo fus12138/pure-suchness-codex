@@ -1,7 +1,8 @@
-﻿---
-title: "Meditations · 明性实践与修行"
-weight: 5
----
+﻿+++
+title = "Meditations · 明性修行"
+weight = 5
+chapter = true
++++四周冥想规划、每日诵读、明性引导词与音频链接将在此发布。
 
-四周冥想规划、每日诵读、明性引导词与音频链接将在此发布。
+
 

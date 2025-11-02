@@ -13,14 +13,12 @@ enableRobotsTXT = true
 
 [params]
   author = "Zhou Luo (周罗)"
-  description = "The Metaphysical Foundation of Luminosity and Manifestation"
   keywords = "Metaphysics, Luminosity, Pure Suchness, Ontology, Philosophy"
   showVisitedLinks = true
   disableBreadcrumb = false
   disableSearch = false
   disableLandingPageButton = false
-  [params]
-  description = "以明为基、以显为法：纯质论形而上学"
+  description = "以明为基、以显为法：纯质论哲学"
   images = ["/images/og-cover.png"]   # 放到 static/images/ 下
 
 
