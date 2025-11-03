@@ -1,44 +1,91 @@
-/* ========== 自定义样式：PURE SUCHNESS CODEX ========== */
+/* ===== Relearn 下的首页卡片排版修复 ===== */
 
-/* 首页标题更柔和 */
-#body h1 {
+/* 主体容器命中，避免被主题样式盖住 */
+#R-body-inner .grid.cards{
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+  margin: 1rem 0 2rem;
+  list-style: none;
+  padding: 0;
+}
+
+/* 把“药丸链接”恢复成真正的卡片块 */
+#R-body-inner .grid.cards .card{
+  display: block;
+  box-sizing: border-box;
+  padding: 14px 16px;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  background: #fafafa;
+  text-decoration: none !important;   /* 覆盖主题的链接样式 */
+  color: inherit !important;          /* 继承正文颜色 */
+  line-height: 1.6;
+  transition: all .25s ease-in-out;
+}
+
+/* 悬停更有“呼吸” */
+#R-body-inner .grid.cards .card:hover{
+  transform: translateY(-3px);
+  box-shadow: 0 8px 18px rgba(0,0,0,.08);
+  background: #fff;
+}
+
+/* 标题视觉层级 */
+#R-body-inner .grid.cards .card strong{
+  display: block;
+  font-size: 1.05rem;
+  margin-bottom: 4px;
+}
+
+/* 让主题别给卡片里的 a 再上装饰 */
+#R-body-inner .grid.cards .card a{
+  text-decoration: none !important;
+  color: inherit !important;
+}
+
+/* 正文与引言的微调（可保留） */
+#R-body-inner h1{
   font-weight: 600;
   letter-spacing: 1px;
   color: #222;
 }
-
-/* 卡片美化 */
-.grid.cards .card {
-  padding: 12px;
-  border: 1px solid #e5e7eb;
-  border-radius: 12px;
-  background-color: #fafafa;
-  transition: all 0.25s ease-in-out;
-}
-.grid.cards .card:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.06);
-  background-color: #ffffff;
-}
-
-/* 正文排版（更舒展） */
-#body p {
+#R-body-inner p{
+  font-size: 1.05rem;
   line-height: 1.9;
   margin-bottom: 1em;
-  font-size: 1.05rem;
 }
-
-/* 引言块的样式 */
-blockquote {
-  border-left: 4px solid #bbb;
-  padding-left: 1em;
-  color: #555;
+/* 引言块样式（色调加深，更有厚度） */
+#R-body-inner blockquote {
+  border-left: 4px solid #555;       /* 左侧竖线更深灰 */
+  padding: 1.2em 1.4em;
+  color: #444;                       /* 字色更深，近正文色 */
   font-style: italic;
-  background-color: #f9f9f9;
+  background: #dcdcdc;               /* 背景更稳重的灰 */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);  /* 增加深度阴影 */
+  border-radius: 6px;
+  line-height: 1.9;
+  transition: all 0.3s ease;
 }
 
-/* 让链接在 hover 时显得更温润 */
-a:hover {
-  color: #4c74e6;
-  text-decoration: underline;
+/* 悬停微微提亮——如光自内散开 */
+#R-body-inner blockquote:hover {
+  background: #e0e0e0;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.12);
 }
+
+
+
+/* 窄屏下自动一列 */
+@media (max-width: 720px){
+  #R-body-inner .grid.cards{ grid-template-columns: 1fr; }
+}
+
+/* ========== 调整“编”级页面标题字号 ========== */
+
+/* 只影响路径中包含 /part 的页面（即各编） */
+body[data-url*="/part"] h1 {
+  font-size: 1.6rem;   /* 默认约 2.2rem，可按需改成 1.5rem、1.4rem 等 */
+  font-weight: 600;
+  line-height: 1.3;
+  margin-bottom: 1rem;}

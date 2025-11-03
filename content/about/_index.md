@@ -1,5 +1,5 @@
 ﻿+++
-title = "About · 关于"
+title = "关于作者·About"
 weight = 6
 chapter = true
 +++周罗（Zhou Luo），从事形而上学的重新奠基工作。  
