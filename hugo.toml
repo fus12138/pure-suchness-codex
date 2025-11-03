@@ -1,4 +1,4 @@
-baseURL = "https://chunzhilun.cn/"
+baseURL = "http://chunzhilun.cn/"
 languageCode = "zh-cn"
 title = "PURE SUCHNESS CODEX"
 theme = "hugo-theme-relearn"
@@ -6,7 +6,7 @@ theme = "hugo-theme-relearn"
 # GitHub Pages 项目仓库常用设置
 publishDir = "docs"
 relativeURLs = false
-canonifyURLs = true
+canonifyURLs = false
 
 defaultContentLanguage = "zh"
 enableRobotsTXT = true
@@ -20,7 +20,6 @@ enableRobotsTXT = true
   disableLandingPageButton = false
   description = "以明为基、以显为法：纯质论哲学"
   images = ["/images/og-cover.png"]   # 放到 static/images/ 下
-
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]

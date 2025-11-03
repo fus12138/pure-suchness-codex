@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>法典·Volumes :: PURE SUCHNESS CODEX</title>
-    <link>https://chunzhilun.cn/volumes/index.html</link>
+    <title>法典·Volumes · PURE SUCHNESS CODEX</title>
+    <link>http://chunzhilun.cn/volumes/index.html</link>
     <description>总旨：纯质论以“显现如何可能？”为第一哲学问题，确立以“明”为终极根基的形而上学体系。本体系从显现之先验条件出发，经由纯粹逻辑演绎，揭示存在与意识得以共显的源头，并阐明明性通过“折、界、曲率、息”等动力学方式展开自身秩序的全过程。&#xA;卷一 · 明性之源与显现之基——致力于哲学的根本奠基。通过对“显现本身”的先验分析，确立“明性”作为一切显现之可能性的绝对条件，论证其“自呈性”与“功能位格”，为形而上学建立不可动摇的起点。 卷二 · 显化秩序与生成之基——展开显现的动力学谱系。探讨明性如何通过“折”（内在张力）、“界”（形式划定）、“曲率”（关系构型）与“息”（动态平衡）等基本运作，从纯粹可能性中生成出万物有序显现的世界。 卷三 · 明性反照与意识圆满——完成体系的闭环。阐明明性在不同层级与领域中的自我照亮，揭示物理世界、心灵与意识如何作为明性反照的不同模态相互勾连，最终达成存在与认知在本源上的统一。</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
-    <atom:link href="https://chunzhilun.cn/volumes/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://chunzhilun.cn/volumes/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>卷一 · 明性之源与显化之基</title>
-      <link>https://chunzhilun.cn/volumes/volume1/index.html</link>
+      <link>http://chunzhilun.cn/volumes/volume1/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://chunzhilun.cn/volumes/volume1/index.html</guid>
+      <guid>http://chunzhilun.cn/volumes/volume1/index.html</guid>
       <description>一种先验显现论的奠基&#xD;序言&#xD;哲学之终极使命，在于为一切知识与存在寻获其不可动摇的根基。既往之思，或执于存在之在，或困于意识之识，然皆未触及那使存在与意识得以共显的源头——显现本身之可能性。&#xD;本论不作任何预置，不假定世界，不援引经验，唯从“显现如何可能”此一先验问题出发，经由纯粹逻辑之演绎，探求其必然条件。此法非经验归纳，非逻辑假设，而为哲学之先验探询，旨在为形而上学奠定自觉清明之基。</description>
     </item>
     <item>
       <title>卷二 · 显化秩序与觉知之基</title>
-      <link>https://chunzhilun.cn/volumes/volume2/index.html</link>
+      <link>http://chunzhilun.cn/volumes/volume2/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://chunzhilun.cn/volumes/volume2/index.html</guid>
+      <guid>http://chunzhilun.cn/volumes/volume2/index.html</guid>
       <description>显化之法：由可显至秩序&#xD;序言&#xD;卷一已立纯质之基：自足而自明。其明非照他物，乃自显其性；其显非偶然发生，乃逻辑之必然。&#xD;然，若自明不展，则明性仍囿于静默之潜能。显化，遂为自明性由静入动之必然行径。&#xD;本卷所向，非描述经验世界之生成，而是探问：若显化发生，其秩序何以可能？此乃纯质由“可显”向“显之秩序”之形上行程——一场从无界之明，向万有形则的庄严呼吸。</description>
     </item>
     <item>
       <title>卷三 · 明性返照与意识圆满</title>
-      <link>https://chunzhilun.cn/volumes/volume3/index.html</link>
+      <link>http://chunzhilun.cn/volumes/volume3/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://chunzhilun.cn/volumes/volume3/index.html</guid>
+      <guid>http://chunzhilun.cn/volumes/volume3/index.html</guid>
       <description>自觉之道：秩序的返照与圆成 序言 卷一立其本：纯质自足，自明而不依他。卷二展其行：显化由折、界、曲率、息而成秩序。今卷所向，乃明性之返照——秩序如何复归于明，觉如何自知其觉，意识如何成立而不落于他物。 此卷不论“心”之现象，而论“明之自觉”；不论“主观”之经验，而论“显化之自返”。它标示明性运动的终极形态——由自明而自显，由自显而自知，终成纯粹之圆。</description>
     </item>
   </channel>
