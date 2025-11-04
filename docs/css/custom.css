@@ -545,3 +545,8 @@ html[data-theme="light"] .pure-poem,
   .pure-poem { padding: 0 0.5rem; font-size: 1.02rem; }
   .pure-poem h3 { font-size: 1.18rem; }
 }
+
+strong, b {
+  font-weight: 800 !important;
+  color: var(--link-color);
+}
