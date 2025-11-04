@@ -41,7 +41,7 @@ chapter = true
 如果你也曾感到，哲学不应止步于概念的辩论，  
 如果你也渴望一种既清明如逻辑、又深切如诗意的生命理解——  
 那么，你已站在门前。
-**欢迎进入——纯质论的世界。**  
+**欢迎进入——纯质论的世界** 
 在这里，认知与存在将回到它的源头。
 
 <div class="grid cards" style="grid-template-columns: repeat(2, 1fr); gap: 16px;">
