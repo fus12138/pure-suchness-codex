@@ -1,1 +1,17 @@
 <link rel="stylesheet" href="{{ "css/custom.css" | relURL }}">
+
+<!-- 让进度条停止闪烁 -->
+<script>
+  (function(){
+    var sink = function(){};
+    if (window.NProgress) {
+      ["start","done","inc","set","remove"].forEach(function(k){
+        if (typeof window.NProgress[k] === "function") window.NProgress[k] = sink;
+      });
+    }
+    if (window.Pace) {
+      try { window.Pace.off("start"); window.Pace.off("restart"); window.Pace.stop(); } catch(e){}
+      window.Pace = { on:sink, off:sink, restart:sink, start:sink, stop:sink, track:sink, options:{} };
+    }
+  })();
+</script>
