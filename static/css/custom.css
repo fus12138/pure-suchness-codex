@@ -255,3 +255,14 @@ body[data-url*="/volumes/volume3/index.html"] .preface{
 
 /* 与你现有“碑文体”保持一致的细节 */
 .epigraph b { color:#222; }
+
+
+/* 关掉主题可能用到的几种进度条实现 */
+#nprogress,
+#nprogress .bar,
+.pace,
+.pace-active,
+#topbar,
+#topbar .topbar-progress {
+  display: none !important;
+}
