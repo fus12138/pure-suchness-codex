@@ -4,7 +4,7 @@ weight = 1
 chapter = true
 +++**哲学的奠基与明性的宣言**
 
-> 哲学已跋涉千年，却始终在两个问题之间徘徊：追问“存在是什么”，“认识何以可能”。却未曾先问“一切存在为何总已是显现后的明朗状态”。一切关于物质与意识、真实与虚拟的争论，都建立在一个未被言明的前提之上——万物首先必须“显现出来”，才能进入认知与言说的领域。
+> 哲学已跋涉千年，却始终在两个问题之间徘徊：哲人追问“存在是什么”、“认识何以可能”。却未曾先问“一切存在为何总是显现后的已明朗状态”。一切关于物质与意识、真实与虚拟的争论，都建立在一个未被言明的前提之上——万物首先必须“显现出来”，才能进入认知与言说的领域。
 
 **纯质论，正是对这一前提的彻底探询。**
 
@@ -45,11 +45,11 @@ chapter = true
 在这里，认知与存在将回到它的源头。
 
 <div class="grid cards" style="grid-template-columns: repeat(2, 1fr); gap: 16px;">
-  <a class="card" href="/volumes/"><strong>三卷法典</strong><br/>体系总纲</a>
-  <a class="card" href="/poems/"><strong>明性之诗</strong><br/>诗性文章与朗诵</a>
-  <a class="card" href="/essays/"><strong>Essays · 论文区</strong><br/>论文摘要与外链</a>
-  <a class="card" href="/meditations/"><strong>Meditations · 明性修行</strong><br/>意识光谱与修行四阶</a>
-  <a class="card" href="/about/"><strong>About · 关于作者</strong><br/>作者简介与联系</a>
+  <a class="card" href="/volumes/"><strong>三卷法典·Volumes</strong><br/>体系总纲</a>
+  <a class="card" href="/poems/"><strong>明性之诗·poems</strong><br/>诗性文章与朗诵</a>
+  <a class="card" href="/essays/"><strong>论文区·Essays</strong><br/>论文摘要与外链</a>
+  <a class="card" href="/meditations/"><strong>明性修行·Meditations</strong><br/>意识光谱与修行四阶</a>
+  <a class="card" href="/about/"><strong>关于作者·About</strong><br/>作者简介与联系</a>
 </div>
 
 
