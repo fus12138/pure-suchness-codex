@@ -399,41 +399,43 @@ main.content, .content {
   letter-spacing: 0.02em;
 }
 
-/* 副标题：h3（按你的要求） */
-.note-essay .subtitle {
-  font-size: 1.22rem;
+/* 副标题 h3 */
+.markdown-section h3 {
+  font-size: 1.55rem;
+  font-weight: 600;
+  margin-top: 2.2rem;
+  margin-bottom: 1.2rem;
+  color: #222;
+}
+
+/* 小节标题 h4/h5 */
+.markdown-section h4,
+.markdown-section h5 {
+  font-size: 1.18rem;
   font-weight: 700;
-  text-align: center;
-  margin: 0.6rem 0 1.2rem;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
+  margin-top: 1.8rem;
+  margin-bottom: 0.8rem;
+  color: #333;
 }
 
-/* 小节标题：h5 + 加粗（按你的要求），比正文略大一点点 */
-.note-essay h5 {
-  font-size: 1.08rem;   /* 接近 h5 视觉，但克制，只比正文略大 */
-  font-weight: 800;     /* 明确加粗 */
-  margin: 1.25rem 0 0.6rem;
-  line-height: 1.45;
-  padding-left: 0.55rem;
-  border-left: 3px solid var(--R-link-color, #6d6d6d);
+/* 正文段落柔光 */
+.markdown-section p {
+  line-height: 1.76;
+  font-size: 1.02rem;
 }
 
-/* 有序/无序列表（若以后随笔使用） */
-.note-essay ul,
-.note-essay ol {
-  margin: 0.6rem 0 0.9rem 1.25rem;
-  line-height: 1.85;
-}
-
-/* 引文（万一你后续添加） */
-.note-essay blockquote {
-  margin: 0.9rem 0;
-  padding: 0.75rem 1rem;
-  border-left: 4px solid color-mix(in srgb, currentColor 35%, transparent);
-  background: color-mix(in srgb, currentColor 6%, transparent);
-  border-radius: 10px;
+/* 引句 */
+blockquote {
+  border-left: 3px solid #888;
+  padding-left: 12px;
   font-style: italic;
+  color: #444;
+}
+
+/* 诗性细节 */
+.markdown-section strong {
+  font-weight: 600;
+  color: #000;
 }
 
 /* 暗色模式微调 */
