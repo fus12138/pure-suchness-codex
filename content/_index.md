@@ -45,9 +45,9 @@ chapter = true
 在这里，认知与存在将回到它的源头。
 
 <div class="grid cards" style="grid-template-columns: repeat(2, 1fr); gap: 16px;">
-  <a class="card" href="/volumes/"><strong>三卷法典·Volumes</strong><br/>体系总纲</a>
+  <a class="card" href="/volumes/"><strong>法典·Volumes</strong><br/>体系总纲</a>
   <a class="card" href="/poems/"><strong>明性之诗·poems</strong><br/>诗性文章与朗诵</a>
-  <a class="card" href="/essays/"><strong>论文区·Essays</strong><br/>论文摘要与外链</a>
+  <a class="card" href="/essays/"><strong>论文·Essays</strong><br/>论文摘要与外链</a>
   <a class="card" href="/meditations/"><strong>明性修行·Meditations</strong><br/>意识光谱与修行四阶</a>
   <a class="card" href="/about/"><strong>关于作者·About</strong><br/>作者简介与联系</a>
 </div>
