@@ -266,3 +266,29 @@ body[data-url*="/volumes/volume3/index.html"] .preface{
 #topbar .topbar-progress {
   display: none !important;
 }
+
+.author-bio {
+  max-width: 720px;
+  margin: 3rem auto;
+  font-family: "Noto Serif SC", serif;
+  line-height: 1.9;
+  color: #f0f0f0;
+  background: rgba(255,255,255,0.03);
+  border-left: 3px solid #999;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(255,255,255,0.05);
+}
+.author-bio h2 {
+  text-align: center;
+  letter-spacing: 0.1em;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+.author-bio blockquote {
+  border-left: 3px solid #ccc;
+  margin: 1.5rem 0;
+  padding-left: 1rem;
+  font-style: italic;
+  opacity: 0.9;
+}
