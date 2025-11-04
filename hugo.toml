@@ -20,6 +20,7 @@ enableRobotsTXT = true
   disableLandingPageButton = false
   description = "以明为基、以显为法：纯质论哲学"
   images = ["/images/og-cover.png"]   # 放到 static/images/ 下
+  titleSeparator = "·"
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]
