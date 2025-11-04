@@ -453,3 +453,95 @@ blockquote {
   .note-essay .subtitle { font-size: 1.18rem; }
   .note-essay h5 { font-size: 1.06rem; }
 }
+
+/* 仅作用在 .pure-poem 容器内，不改全局颜色或背景 */
+.pure-poem {
+  font-family: "Noto Serif SC", serif;
+  font-size: 1.08rem;
+  line-height: 2;
+  max-width: 750px;
+  margin: 2rem auto;
+  padding: 1.6rem 1.2rem;
+  /* 继承当前主题颜色，不强制设色 */
+  color: inherit;
+  background: transparent;
+  border-left: 4px solid rgba(127,127,127,.25);
+  border-radius: 10px;
+  box-shadow: none;
+}
+
+/* 深色主题下的轻微底色与边框（多种选择器兼容不同主题实现） */
+html[data-theme="dark"] .pure-poem,
+:root[data-theme="dark"] .pure-poem,
+.dark .pure-poem {
+  background: rgba(255,255,255,.03);
+  border-left-color: rgba(255,255,255,.18);
+}
+
+/* 浅色主题下的轻微底色与边框 */
+html[data-theme="light"] .pure-poem,
+:root[data-theme="light"] .pure-poem,
+.light .pure-poem {
+  background: rgba(0,0,0,.03);
+  border-left-color: rgba(0,0,0,.15);
+}
+
+/* 强调与行距，仍然继承主题文字颜色 */
+.pure-poem strong {
+  font-weight: 600;
+}
+
+.pure-poem em {
+  opacity: .9;
+  font-style: italic;
+}
+
+/* 让手动换行更舒适些 */
+.pure-poem br { line-height: 1.2; }
+
+@media (max-width: 720px) {
+  .pure-poem { font-size: 1rem; padding: 1.2rem .9rem; }
+}
+
+.pure-poem {
+  max-width: 860px;
+  margin: 2.25rem auto 3.25rem;
+  line-height: 1.95;
+  font-size: 1.03rem;
+}
+
+.pure-poem .poem-chapter {
+  font-size: 1.45rem;
+  font-weight: 800;
+  letter-spacing: 0.02em;
+  margin: 0 0 1.2rem;
+}
+
+.pure-poem .poem-sec { margin: 2.2rem 0 2.8rem; }
+.pure-poem .poem-sec:first-child { margin-top: 1.2rem; }
+
+.pure-poem h3 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  margin: 0 0 0.3rem;
+}
+
+.pure-poem .poem-sub {
+  opacity: .85;
+  font-weight: 500;
+  margin: -0.1rem 0 0.9rem;
+}
+
+.pure-poem p { margin: 0.55rem 0; }
+
+/* 深色模式的轻微提亮（不改变主题配色，只调文本对比度） */
+@media (prefers-color-scheme: dark) {
+  .pure-poem .poem-sub { opacity: .92; }
+}
+
+/* 窄屏优化 */
+@media (max-width: 640px) {
+  .pure-poem { padding: 0 0.5rem; font-size: 1.02rem; }
+  .pure-poem h3 { font-size: 1.18rem; }
+}

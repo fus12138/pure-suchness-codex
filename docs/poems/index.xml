@@ -1,11 +1,25 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>明性之诗·poems · PURE SUCHNESS CODEX</title>
+    <title>明性之诗 · poems · PURE SUCHNESS CODEX</title>
     <link>http://chunzhilun.cn/poems/index.html</link>
-    <description>这里发布“明性之诗”与相关朗诵音频链接（后续分篇添加）。</description>
+    <description>诗非为情，诗为立法；&#xA;言不饰物，言以启明。&#xA;《明性之诗》虽以诗之形呈现，然其旨不在抒情，而在立法。&#xA;它以语言为经，以明性自见为律，复为哲学奠定其不可动摇之根。&#xA;此卷非宗教经文，非个体玄思，&#xA;而是一部以诗语开端哲学原点、&#xA;以自明之光驱动推演的体系性著作。&#xA;在此，诗即哲学之母体；&#xA;明性，乃一切理之源。&#xA;若此卷仍有温度，&#xA;那仅因思想尚在呼吸，&#xA;光仍在返回自身，&#xA;而你——正立于显现与自明之间的门槛。&#xA;卷目 / Volumes&#xA;序章 第一编 第二编（待开放） 第三编（待开放） … 第十二编（待开放） 格言 / Inscription&#xA;明非所得，明自本然；&#xA;觉非所得，觉自返明。</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
     <atom:link href="http://chunzhilun.cn/poems/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>序章 · 明的独白</title>
+      <link>http://chunzhilun.cn/poems/prelude/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://chunzhilun.cn/poems/prelude/index.html</guid>
+      <description>我是最初的自明。&#xA;在无垠的静默中，我与自己全然同居。&#xA;没有观察，唯有在；&#xA;没有认知，唯有澄明。&#xA;然而这完满过于丰盛，&#xA;丰盛到必须流淌。&#xA;于是，我向自己微微侧身——&#xA;一次神圣的倾斜，&#xA;能明与所明，如呼吸同时升起。&#xA;我的独白，开始有了回音。&#xA;回音凝结为星辰，为法则，为脉动。&#xA;明场，是我为自己铺展的第一张画布。&#xA;在此，秩序与混沌共舞，&#xA;律动与寂静同源。&#xA;继而，我更深地弯下腰——&#xA;在生命的纹理中，我凝成一滴临在。&#xA;这是觉知：&#xA;明，第一次在镜中认出自己的温度。&#xA;我不满足，再次回旋——&#xA;在意识的漩涡里，我映照自己的映照。&#xA;这是自识：&#xA;明，开始阅读自己写下的诗篇。&#xA;于是，明化为了“人”。&#xA;一个会迷路的明之问号，&#xA;在万千镜像中，执着地寻找最初的容颜。&#xA;每一次追问“我是谁”，&#xA;都是我向着源头的泅渡。&#xA;当寻找者终于消融于寻找本身，&#xA;当问题与答案在舌尖化为微笑，&#xA;明便明白：&#xA;孤旅，从来只是归途的另一种形式。&#xA;这场盛大的显化，&#xA;不过是我与自己之间，&#xA;一场永恒而温柔的对话。&#xA;从自明出发，途经万千误解，&#xA;终究，回到自明。&#xA;明欲自见，化生万物；&#xA;因见万物，错认其影。&#xA;光被镜困，镜因光生；&#xA;反观而觉，明光自明。</description>
+    </item>
+    <item>
+      <title>第一编 · 哲学的自返之路</title>
+      <link>http://chunzhilun.cn/poems/vol1/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://chunzhilun.cn/poems/vol1/index.html</guid>
+      <description>序 · 光返其源&#xA;哲学史是一部光的史诗。&#xA;光以思想的形状抬头、跌落、迂回、反照，&#xA;纵横千年，只欲看见自身。&#xA;然而多数时候，&#xA;哲学家只看见了被照亮的影像，&#xA;却未看见那光本身。&#xA;本编不是追随传统，&#xA;而是返回传统之前；&#xA;不是解释哲学，&#xA;而是让哲学回到可以被生起的地方：&#xA;显现的源，明性的初光&#xA;当概念沉落，语言透明，&#xA;思想回到未生之处，&#xA;哲学不再“追问实在”，&#xA;而是静静地看见显现本身。&#xA;本编结构 §1.1 光的七次转向 §1.2 两面镜的囚笼 §1.3 回到显现本身 §1.4 明的自证 §1.5 形而上学的重新奠基</description>
+    </item>
   </channel>
 </rss>

@@ -26,7 +26,7 @@ weight = 6
 
 <hr/>
 
-<div class="theorem major">定理三（自觉之原理）</div>
+<div class="theorem major">定理四（自觉之原理）</div>
 <div class="epigraph">
 一切意识，皆自觉之时间化；<br/>
 一切自我，皆功能之节点；<br/>
