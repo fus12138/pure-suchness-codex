@@ -1,6 +1,6 @@
 ﻿+++
 title = "关于作者 · About"
-weight = 6
+weight = 7
 +++
 <section class="author-bio">
   <p>我起初以修行探寻觉之本源，在无数静观与寂照之中，<strong>明性渐显，然仍存微疑。</strong><br>那些直指本心的证悟，似见光——而未见光源。</p>

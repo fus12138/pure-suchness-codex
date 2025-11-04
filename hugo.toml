@@ -51,10 +51,15 @@ enableRobotsTXT = true
     url = "/meditations/"
     weight = 5
 
+ [[menu.main]]
+    name = "Notes 思想随笔"
+    url = "/notes/"
+    weight = 6
+
   [[menu.main]]
     name = "About 关于"
     url = "/about/"
-    weight = 6
+    weight = 7
 
 [markup]
   [markup.goldmark]

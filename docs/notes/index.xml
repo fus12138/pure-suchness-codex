@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>思想随笔 · Notes · PURE SUCHNESS CODEX</title>
+    <link>http://chunzhilun.cn/notes/index.html</link>
+    <description>这里收录思考的火花——&#xA;每一篇，皆源自明性自身的回响——&#xA;在理与诗、光与影之间，&#xA;记录意识探路的片刻闪光。</description>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    <atom:link href="http://chunzhilun.cn/notes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>意识的本质与超越</title>
+      <link>http://chunzhilun.cn/notes/consciousness-essence/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://chunzhilun.cn/notes/consciousness-essence/index.html</guid>
+      <description>纯质论视域下关于意识、明流与自觉的探讨</description>
+    </item>
+  </channel>
+</rss>

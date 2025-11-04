@@ -36,6 +36,7 @@ chapter = true
 **明性之诗 —— 本源的诗意表达**  
 **学术论文 —— 严谨的学理论证**  
 **明性修行 —— 意识的实践道途**
+**思想随笔 —— 灵光的自由流动**
 
 如果你也曾感到，哲学不应止步于概念的辩论，  
 如果你也渴望一种既清明如逻辑、又深切如诗意的生命理解——  
@@ -49,6 +50,7 @@ chapter = true
   <a class="card" href="/poems/"><strong>明性之诗·poems</strong><br/>诗性文章与朗诵</a>
   <a class="card" href="/essays/"><strong>论文·Essays</strong><br/>论文摘要与外链</a>
   <a class="card" href="/meditations/"><strong>明性修行·Meditations</strong><br/>意识光谱与修行四阶</a>
+   <a class="card" href="/notes/"><strong>思想随笔·Notes</strong><br/>灵光与思辨的记录</a>
   <a class="card" href="/about/"><strong>关于作者·About</strong><br/>作者简介与联系</a>
 </div>
 
