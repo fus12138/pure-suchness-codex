@@ -1,5 +1,5 @@
 ﻿+++
-title = "明性之诗"
+title = "明性之诗·poems"
 weight = 3
 +++
 
