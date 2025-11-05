@@ -130,12 +130,6 @@ weight = 1
 其性质非物、非心、非神，乃明性自足性之符号化表达。
   </div>
 
-  <div class="note">附释</div>
-  <div class="comment">
-    此自呈，非如镜之反照自身，而如光之恒常临在：<br/>
-    其在场非显现之对象，而是使一切显现得以可能的先验同在。
-  </div>
-
 <div class="definition">方法论注</div>
   <div class="text">
 “纯质”为一命名约定，仅用于指称“自呈明性之统一体”此一先验功能位格。<br/>
