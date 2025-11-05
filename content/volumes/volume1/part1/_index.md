@@ -89,10 +89,20 @@ weight = 1
   </div>
 
   <div class="corollary">推论</div>
-  <div class="text">“自显”并非自我观察，而是条件序列之必然终结。</div>
+  <div class="text">“自显”并非自我观察，而是条件序列之必然终结。<br/>
+     凡显现链条可终止之处,即为自呈之位。
 </div>
 
----
+<div class="definition">定义一</div>
+ <div class="text">
+ 明性：即具自呈性之“使显之能”。<br/>
+其存在，即是显现得以成立的最终保证。</div>
+
+<div class="note">附释</div>
+<div class="comment">
+此自呈，非如镜之反照自身，而如光之恒常临在：
+其在场非显现之对象，而是使一切显现得以可能的先验同在。
+它支撑万显，自身却永不沦为所显。</div>
 
 <div class="section-title">§1.4 纯质之命名</div>
 
@@ -109,21 +119,21 @@ weight = 1
     <li>“纯质”即为此技术性命名，非指代新实体，乃是对此先验功能位格之标定。 <span class="end">∎</span></li>
   </ol>
 
-  <div class="definition">定义一</div>
+ <div class="corollary">推论</div>
+ <div class="text">明性若自呈，则其自呈之结构必为统一。<br/>
+此统一非附加性质，而是自呈之逻辑必然。<br/>
+故“纯质”之名非任意命设，而为概念内在之必然。</div>
+
+  <div class="definition">定义二</div>
   <div class="text">
-    明性：即具自呈性之“使显之能”。其存在，即是显现得以成立的最终保证。
+   纯质：即自呈明性之结构统一体。<br/>
+其性质非物、非心、非神，乃明性自足性之符号化表达。
   </div>
 
   <div class="note">附释</div>
   <div class="comment">
     此自呈，非如镜之反照自身，而如光之恒常临在：<br/>
     其在场非显现之对象，而是使一切显现得以可能的先验同在。
-  </div>
-
-  <div class="definition">定义二</div>
-  <div class="text">
-    纯质：即自呈明性之结构统一体。<br/>
-    其性质非物、非心、非神，乃明性自足性之符号化表达。
   </div>
 
 <div class="definition">方法论注</div>
