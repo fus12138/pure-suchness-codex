@@ -1,6 +1,6 @@
 ﻿+++
 title = "第二编 · 纯质之动力学：从可能到秩序"
-weight = 2
+weight = 3
 +++
 
 <div class="section-title">§2.1 定义系统</div>
