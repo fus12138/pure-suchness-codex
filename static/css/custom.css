@@ -606,72 +606,6 @@ h1, h2, .section-title {
 a { color: var(--ACCENT); text-decoration: none; }
 a:hover { text-decoration: underline; }
 
-
-/* ===== 神殿体 · 殿门三石刻 ===== */
-.hero-verse {
-  max-width: 860px;
- margin: 2vh auto 3vh;  /* 顶部更紧、底部稍保留气息 */
-  padding: 2.5rem 2rem;
-  text-align: center;
-  position: relative;
-  /* 微光晕，让文字像在石面上自显 */
-  background: radial-gradient(1200px 500px at 50% -20%, rgba(255,255,255,.85), rgba(255,255,255,0));
-  border-radius: 18px;
-}
-
-/* 行间的“呼吸”，让三句各自成碑 */
-.hero-verse .line + .line {
-  margin-top: 2.2rem; /* 行间距离更稳更庄 */
-}
-
-/* 轻微的下沿分界，像石阶 */
-.hero-verse::after {
-  content: "";
-  display: block;
-  width: 72%;
-  height: 1px;
-  margin: 2.2rem auto 0;
-  background: linear-gradient(90deg, rgba(2,6,23,0), rgba(2,6,23,.15), rgba(2,6,23,0));
-}
-
-/* 暗色模式的适配（若主题开启暗色） */
-@media (prefers-color-scheme: dark) {
-  .hero-verse {
-    background: radial-gradient(1200px 520px at 50% -20%, rgba(255,255,255,.06), rgba(255,255,255,0));
-  }
-  .hero-verse .line {
-    color: #e5e7eb;
-    text-shadow: none;
-  }
-  .hero-verse::after {
-    background: linear-gradient(90deg, rgba(229,231,235,0), rgba(229,231,235,.18), rgba(229,231,235,0));
-  }
-}
-
-.hero-sub{
-  text-align:center;
-  margin: 1.2rem auto 0;
-  color:#475569;             /* 静灰 */
-  font-family: "Source Han Sans", "Noto Sans SC", "PingFang SC", "Microsoft YaHei", sans-serif;
-  letter-spacing:.02em;
-}
-@media (prefers-color-scheme: dark){
-  .hero-sub{ color:#cbd5e1; }
-}
-
-/* 强制覆盖主题：三句碑刻体 */
-.hero-verse .line {
- font-size: clamp(1.35rem, 1.5vw + 0.9rem, 1.9rem) !important;
-  font-weight: 800 !important;
-  line-height: 1.33 !important;
-  text-rendering: geometricPrecision;
-   letter-spacing: .02em;
-  line-height: 1.35;
-  color: #0f172a;            /* 深靛 */
-  margin: 0 0 1.8rem 0;
-  text-shadow: 0 1px 0 rgba(255,255,255,.4);
-}
-
 /* 首页标题变小、淡、退居檐下 */
 body.home main header h1,
 body.home .page header h1 {
@@ -681,3 +615,42 @@ body.home .page header h1 {
   margin-bottom: 1rem !important;
   letter-spacing: .08em;
 }
+.hero-sub{
+  text-align:center;
+  margin: .8rem auto 0;
+  color:#64748b;                 /* 静灰 */
+  font-family:"Source Han Sans","Noto Sans SC","PingFang SC","Microsoft YaHei",sans-serif;
+  letter-spacing:.02em;
+  font-size: .98rem;
+  opacity:.9;
+}
+@media (prefers-color-scheme: dark){
+  .hero-sub{ color:#cbd5e1; opacity:.85; }
+}
+/* 首页标题：在，但更小更淡 */
+body.home main header h1,
+body.home .page header h1{
+  font-size: 0.95rem !important;
+  font-weight: 500 !important;
+  opacity: .5 !important;
+  margin: .1rem 0 .2rem !important;
+  letter-spacing: .08em;
+}
+
+/* 殿门三句：更靠顶部、更小、更稳 */
+.hero-verse{ margin-top: 2vh !important; margin-bottom: 8vh !important; text-align:center; }
+.hero-verse .line{
+  font-family: "Source Han Serif SC","Noto Serif SC",serif;
+  font-weight: 800;
+  font-size: 1.45rem !important;    /* 若仍觉大，改 1.35rem；若太小，改 1.55rem */
+  line-height: 1.33;
+  margin: 0 0 1rem 0;
+  text-rendering: geometricPrecision;
+}
+.hero-verse .line + .line{ margin-top: 1rem !important; }
+
+.hero-sub{
+  text-align:center; margin:.6rem auto 0; color:#64748b; letter-spacing:.02em;
+  font-size:.95rem; opacity:.9;
+}
+@media (prefers-color-scheme: dark){ .hero-sub{ color:#cbd5e1; opacity:.85; } }
