@@ -1,6 +1,37 @@
 ﻿+++
-title = "第四编 · 觉知之基：自组织与自觉的形上圆成"
-weight = 2
+title   = "第四编 · 自组织与自觉的形上圆成"
+slug    = "emergence-of-awareness"
+url     = "/volumes/2/awareness/"
+weight  = 2
+chapter = true
+
+description = "本编论证显化在持续自维中必然形成自组织中心，曲率与节律的深返生成内映结构，由此觉知作为形上逻辑可能自然出现。"
+summary     = "折与息互行，曲率聚合则自组织；自组织递归则内映；内映深成则觉知。觉知并非后天附加，而是显化自返至临界阈值的必然。"
+
+keywords = [
+  "自组织","觉知","内映","递归","自维","阈值","曲率","息",
+  "先验生成","显化结构","意识前夜","Emergent awareness",
+  "Self-organization","Recursive structure",
+  "Inner mapping","Self-maintenance",
+  "Transcendental cognition"
+]
+
+series   = "Pure Suchness Codex"
+role     = "Emergence of Awareness — 觉知萌生逻辑"
+language = "zh-CN"
+
+images = ["/images/pure-suchness-vol2-awareness.png"]
+
+disableBreadcrumb = false
+toc    = false
+draft  = false
+
+aliases = [
+  "/vol4",
+  "/卷四",
+  "/第四编",
+  "/自组织-觉知"
+]
 +++
 
 <div class="section-title">§4.1 自组织之逻辑必然</div>

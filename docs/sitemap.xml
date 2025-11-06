@@ -6,22 +6,17 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>http://chunzhilun.cn/volumes/volume0/index.html</loc>
+    <loc>http://chunzhilun.cn/volumes/zero/index.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>http://chunzhilun.cn/volumes/volume2/part1/index.html</loc>
+    <loc>http://chunzhilun.cn/volumes/2/forms/index.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>http://chunzhilun.cn/volumes/volume3/part1/index.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>http://chunzhilun.cn/volumes/volume0/part1/index.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -36,12 +31,17 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>http://chunzhilun.cn/volumes/volume2/part2/index.html</loc>
+    <loc>http://chunzhilun.cn/volumes/volume3/part2/index.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>http://chunzhilun.cn/volumes/volume1/part1/index.html</loc>
+    <loc>http://chunzhilun.cn/volumes/2/awareness/index.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>http://chunzhilun.cn/volumes/1/index.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -56,12 +56,17 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>http://chunzhilun.cn/volumes/zero/01/index.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>http://chunzhilun.cn/notes/consciousness-essence/index.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>http://chunzhilun.cn/volumes/volume1/part2/index.html</loc>
+    <loc>http://chunzhilun.cn/volumes/2/index.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -86,11 +91,6 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>http://chunzhilun.cn/volumes/volume3/part2/index.html</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
     <loc>http://chunzhilun.cn/notes/index.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -101,17 +101,17 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>http://chunzhilun.cn/volumes/volume1/index.html</loc>
+    <loc>http://chunzhilun.cn/volumes/volume-i/index.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>http://chunzhilun.cn/volumes/volume2/index.html</loc>
+    <loc>http://chunzhilun.cn/volumes/2/index.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>http://chunzhilun.cn/volumes/volume3/index.html</loc>
+    <loc>http://chunzhilun.cn/volumes/3/index.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>

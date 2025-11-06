@@ -12,8 +12,11 @@ defaultContentLanguage = "zh"
 enableRobotsTXT = true
 
 [params]
-   author = "Zhou Luo (周罗)"
-  keywords = ["先验显现论","先验哲学","明性","自呈","纯质","形而上学","现象学","非二元","认识论","本体论","Luminosity","Self-presentation","Pure Suchness"]
+  author = "Zhou Luo (周罗)"
+  keywords = [ "先验显现论","先验哲学","哲学第零问题","明性","自呈","纯质",
+    "形而上学","现象学","非二元","认识论","折","界","曲率","息",
+    "显现如何可能","自明","觉知","本体论","意识",
+    "Luminosity","Self-presentation","Pure Suchness"]
   showVisitedLinks = true
   disableBreadcrumb = false
   disableLandingPageButton = false

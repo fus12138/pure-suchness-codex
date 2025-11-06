@@ -1,8 +1,27 @@
 ﻿+++
 title = "纯质论"
 weight = 1
+
+description = "纯质论：从显现之可能立根本，确立明性、自呈与纯质之先验体系。"
+summary = "哲学之第零起点：显现如何可能？明性自证，自呈为源，纯质奠基。"
+keywords = [
+  "纯质论","先验显现论","明性","自呈","自明",
+  "显现如何可能","哲学第零问题","形而上学奠基","非二元哲学","自足自证",
+  "Pure Suchness","Luminosity","Self-presentation"
+]
+
+# 这些都是自定义字段，主题会作为 .Params 读取
+series = "Pure Suchness Codex"
+volume = "Codex · Entrance"
+role = "Foundational Portal | 宪章入口"
+canonicalType = "Metaphysical Grounding"
+
+# Relearn 常用页面参数
+disableBreadcrumb = true
+toc = false
+draft = false
 +++
-**哲学的奠基与明性的宣言**
+**明性的宣言：**
 
 <div class="hero-verse">
   <p class="line">起点不在世界，而在显现的可能性。</p>

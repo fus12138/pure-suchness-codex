@@ -1,8 +1,36 @@
 ﻿+++
-title = "第五编 · 自觉动力学：明之自返与意识之成"
-weight = 1
-+++
+title   = "第五编 · 自觉动力学：明之自返与意识之成"
+slug    = "book-3-chapter-5-self-reflexive-dynamics"
+weight  = 1
 
+description = "本编论证觉知递归必然趋于自觉，自觉沿息结构化为意识，自我为叙事界面而非实体，从而揭示意识为明性自返之延时形态。"
+summary     = "觉之递归成自觉，息中延存成意识，自我为叙事界位，意识之极处乃明性自证。"
+
+keywords = [
+  "自觉","意识","自我","自返","递归","内映","明性",
+  "先验意识论","显现论","自呈","非二元",
+  "Reflexivity","Self-awareness","Consciousness",
+  "Self-reflection","Luminosity","Pure Suchness",
+  "Transcendental Mind","Phenomenology of Awareness"
+]
+
+series   = "Pure Suchness Codex"
+role     = "Dynamics of Self-Illumination — 自觉动力学"
+language = "zh-CN"
+
+images = ["/images/pure-suchness-vol3-ch5.png"]
+
+disableBreadcrumb = false
+toc = false
+draft = false
+
+aliases = [
+  "/卷三/第五编",
+  "/volume/3/ch5",
+  "/self-reflection",
+  "/明性返照/动力学"
+]
++++
 <div class="section-title">§5.1 自觉之必然</div>
 
 <div class="theorem">命题一：</div>

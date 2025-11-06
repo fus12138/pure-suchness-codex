@@ -1,8 +1,34 @@
 ﻿+++
-title = "第二编 · 纯质之动力学：从可能到秩序"
-weight = 3
-+++
+title   = "第二编 · 纯质之动力学：从可能到秩序"
+slug    = "volume-2"
+url     = "/volumes/2/"
+weight  = 3
+chapter = true
 
+description = "本编从明性之自足与自呈出发，演绎显化的必然动力：折、界、曲率、息。由此，时空、物能、因果、自组织与觉知的形上结构得以必然形成。"
+summary     = "显化非偶然，而是明性自见之动力学。折生界，界育时空；曲率生物能因果，息成秩序与觉知。世界由此自显。"
+
+keywords = [
+  "显化", "折","界","曲率","息",
+  "时空起源", "因果结构", "自组织",
+  "形上动力学", "自明系统", "先验生成论",
+  "Pure Suchness Dynamics", "Curvature", "Phase Rhythm",
+  "Transcendental Morphogenesis"
+]
+
+series   = "Pure Suchness Codex"
+role     = "Volume II — 显化与秩序的动力学"
+language = "zh-CN"
+
+# 分享卡片（可留待上传）
+images = ["/images/vol2-og.png"]
+
+disableBreadcrumb = false
+toc    = false
+draft  = false
+
+aliases = ["/vol2","/卷二","/第二编"]
++++
 <div class="section-title">§2.1 定义系统</div>
 
 <ul class="axiomlist deflist">

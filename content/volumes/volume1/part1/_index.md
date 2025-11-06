@@ -1,8 +1,32 @@
 +++
-title = "第一编 · 显现之可能与明性之必然"
-weight = 2
-+++
+title   = "第一编 · 明性之必然与纯质之设立"
+slug    = "volume-1"
+url     = "/volumes/1/"
+weight  = 2
+chapter = true
 
+description = "从显现的第零问题出发，本编演绎明性之必然、自呈之不可撤、纯质之位格与其先验统一。此为显现论的奠基卷。"
+summary     = "本编立明性之法：显现不可无明，自呈不可退让，纯质必以统一自足之形式成立。"
+
+keywords = [
+  "明性", "自呈", "自证", "纯质", "显现必然性",
+  "先验显现论", "第一哲学", "形而上学再奠基",
+  "能所不二", "先验自明", "Pure Suchness",
+  "Luminosity", "Self-presentation"
+]
+
+series   = "Pure Suchness Codex"
+role     = "Volume I — 明性立法"
+language = "zh-CN"
+
+# 可上传封面后启用
+images = ["/images/vol1-og.png"]
+
+disableBreadcrumb = false
+toc    = false
+draft  = false
+aliases = ["/vol1","/卷一","/第一编"]
++++
 <div class="section-title">§1.1条件之必然</div>
 
 <div class="article">

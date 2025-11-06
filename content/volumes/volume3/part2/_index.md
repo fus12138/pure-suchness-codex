@@ -1,8 +1,36 @@
 ﻿+++
 title = "第六编 · 自明之圆满：显与明的一体终证"
-weight = 6
-+++
+slug  = "book-3-chapter-6-luminous-consummation"
+weight = 2
 
+description = "本编论证自觉逻辑之极必归于明性自证，显与明不再二分，思想抵达纯质自明。此处哲学非终止，而转入光之持续自呈。"
+summary     = "自觉穷尽即归明性，显与明圆成一体，意识不再寻光——光自为其见。此卷证得纯质之环圆满。"
+
+keywords = [
+  "自明","终证","圆满","纯质","明性","自返",
+  "非二元","先验显现论","自呈","显现论",
+  "Luminosity","Self-illumination","Ultimate unity",
+  "Phenomenology of self-revelation","Pure Suchness",
+  "Absolute Knowing","Logical consummation"
+]
+
+series   = "Pure Suchness Codex"
+role     = "The Luminous Consummation — 明性之圆满"
+language = "zh-CN"
+
+images = ["/images/pure-suchness-vol3-ch6.png"]
+
+disableBreadcrumb = false
+toc = false
+draft = false
+
+aliases = [
+  "/卷三/第六编",
+  "/volume/3/ch6",
+  "/ultimate-luminosity",
+  "/明性/圆满"
+]
++++
 <div class="section-title">§6.1 明之复归</div>
 
 <div class="theorem">命题五：</div>

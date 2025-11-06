@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>卷二 · 显化秩序与觉知之基 :: 纯质论 ·PURE SUCHNESS CODEX</title>
+    <link>http://chunzhilun.cn/volumes/2/index.html</link>
+    <description>本卷从明性之自足与自呈出发，演绎显化的必然动力：折、界、曲率、息，并由此推演时空、物能、因果、自组织与觉知之形上结构。</description>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    <atom:link href="http://chunzhilun.cn/volumes/2/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>第三编 · 显化逻辑与世界形式</title>
+      <link>http://chunzhilun.cn/volumes/2/forms/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://chunzhilun.cn/volumes/2/forms/index.html</guid>
+      <description>本编演绎显化如何由明性之自呈，经折、界、曲率与息的动力机制，生成时间、空间、物、能、因果等世界结构。</description>
+    </item>
+    <item>
+      <title>第四编 · 自组织与自觉的形上圆成</title>
+      <link>http://chunzhilun.cn/volumes/2/awareness/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://chunzhilun.cn/volumes/2/awareness/index.html</guid>
+      <description>本编论证显化在持续自维中必然形成自组织中心，曲率与节律的深返生成内映结构，由此觉知作为形上逻辑可能自然出现。</description>
+    </item>
+  </channel>
+</rss>

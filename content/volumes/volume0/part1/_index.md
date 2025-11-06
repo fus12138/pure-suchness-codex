@@ -1,6 +1,31 @@
 +++
-title = "显现之先验位阶的确立"
-weight = 1
+title = "显现之先验位阶之确立"
+slug = "prologue-zero"
+url = "/volumes/zero/01"
+weight = 2
+chapter = true
+
+# 内容说明
+description = "哲学之第零问题：显现何以可能？本编将思维退至绝对起点，悬置世界与主体，确立显现本身为先验立基之处。"
+summary     = "显现之先验起点：一切存在与认知之前的零位。"
+
+# SEO 关键词
+keywords = [
+  "哲学第零问题","显现","显现如何可能","先验显现论",
+  "先验哲学","明性","自呈","纯质","形而上学",
+  "Pure Suchness","Luminosity","Self-presentation","Transcendental Ground"
+]
+
+series = "Pure Suchness Codex"
+role   = "Zero Prologue | 零位立基"
+language = "zh-CN"
+
+# 分享图（可先留着，之后加）
+images = ["/images/og-zero.png"]
+
+disableBreadcrumb = false
+toc = false
+draft = false
 +++
 
 <div class="section-title">§0.1 哲学追问的重新定位</div>

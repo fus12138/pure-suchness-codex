@@ -592,29 +592,13 @@ h1, h2, .section-title {
   line-height: 1.25;
   margin: 1.2em 0 .6em;
 }
-.section-title { font-size: 1.6rem; font-weight: 700; }
 
-/* 命题/定义/证明块 */
-.theorem, .definition, .proof, .corollary, .clause, .note {
-  font-weight: 700;
-  color: var(--ACCENT);
-  margin-top: 1.2rem;
-}
 .proof-list li { margin: .35rem 0; }
 
 /* 链接与悬停 */
 a { color: var(--ACCENT); text-decoration: none; }
 a:hover { text-decoration: underline; }
 
-/* 首页标题变小、淡、退居檐下 */
-body.home main header h1,
-body.home .page header h1 {
-  font-size: 1rem !important;
-  font-weight: 500 !important;
-  opacity: 0.55 !important;
-  margin-bottom: 1rem !important;
-  letter-spacing: .08em;
-}
 .hero-sub{
   text-align:center;
   margin: .8rem auto 0;

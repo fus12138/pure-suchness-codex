@@ -1,9 +1,38 @@
-﻿
-+++
-title = "第三编 · 显化动力学"
-weight = 1
-+++
+﻿+++
+title   = "第三编 · 显化逻辑与世界形式"
+slug    = "manifestation-forms"
+url     = "/volumes/2/forms/"   # 你若希望变为 /volumes/3/ 则可改
+weight  = 1
+chapter = true
 
+description = "本编演绎显化如何由明性之自呈，经折、界、曲率与息的动力机制，生成时间、空间、物、能、因果等世界结构。"
+summary     = "折与界立位，息与序生时，曲率成物与能，并续于因果。显化自此具结构、序列、传承与持存，世界因明而形。"
+
+keywords = [
+  "显化","时间","空间","物","能","因果",
+  "曲率","折","界","息","先验生成",
+  "形上动力学","世界结构","自呈","自生成",
+  "Transcendental morphogenesis",
+  "Time emergence","Space emergence",
+  "Curvature field","Causal order"
+]
+
+series   = "Pure Suchness Codex"
+role     = "Manifestation Forms and World Structures"
+language = "zh-CN"
+
+images = ["/images/pure-suchness-vol2-forms.png"]
+
+disableBreadcrumb = false
+toc    = false
+draft  = false
+
+aliases = [
+  "/third-section",
+  "/第三编",
+  "/显化-时空-物能-因果"
+]
++++
 <div class="section-title">§3.1 显化之动力必然</div>
 
 <div class="theorem">命题一：</div>
