@@ -1,1 +1,46 @@
 <link rel="stylesheet" href="{{ "css/custom.css" | relURL }}">
+
+{{- $title := cond (ne .Title "") .Title site.Title -}}
+{{- $desc  := cond (ne (trim .Params.description " ") "") .Params.description site.Params.description -}}
+
+{{- $imgs  := or .Params.images site.Params.images -}}
+{{- $keys  := or .Params.keywords site.Params.keywords -}}
+
+{{- $canon := .Permalink -}}
+{{- $img   := "" -}}
+{{- with $imgs -}}
+  {{- if gt (len .) 0 -}}
+    {{- $img = (index . 0) | absURL -}}
+  {{- end -}}
+{{- end -}}
+
+<!-- Basic SEO -->
+<link rel="canonical" href="{{ $canon }}">
+<meta name="description" content="{{ $desc }}">
+{{- with $keys -}}<meta name="keywords" content="{{ delimit . ", " }}">{{- end -}}
+
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="{{ site.Title }}">
+<meta property="og:title" content="{{ $title }}">
+<meta property="og:description" content="{{ $desc }}">
+{{- with $img -}}<meta property="og:image" content="{{ . }}">{{- end -}}
+<meta property="og:url" content="{{ $canon }}">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{ $title }}">
+<meta name="twitter:description" content="{{ $desc }}">
+{{- with $img -}}<meta name="twitter:image" content="{{ . }}">{{- end -}}
+
+<!-- JSON-LD: WebSite -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": {{ site.Title | jsonify }},
+  "url": {{ site.BaseURL | jsonify }},
+  "description": {{ $desc | jsonify }},
+  "inLanguage": "zh-CN"
+}
+</script>

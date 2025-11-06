@@ -1,6 +1,6 @@
 baseURL = "http://chunzhilun.cn/"
 languageCode = "zh-cn"
-title = "PURE SUCHNESS CODEX"
+title = "纯质论 ·PURE SUCHNESS CODEX"
 theme = "hugo-theme-relearn"
 
 # GitHub Pages 项目仓库常用设置
@@ -12,18 +12,26 @@ defaultContentLanguage = "zh"
 enableRobotsTXT = true
 
 [params]
-  author = "Zhou Luo (周罗)"
-  keywords = "Metaphysics, Luminosity, Pure Suchness, Ontology, Philosophy"
+   author = "Zhou Luo (周罗)"
+  keywords = ["先验显现论","先验哲学","明性","自呈","纯质","形而上学","现象学","非二元","认识论","本体论","Luminosity","Self-presentation","Pure Suchness"]
   showVisitedLinks = true
   disableBreadcrumb = false
-  disableSearch = false
   disableLandingPageButton = false
-  description = "以明为基、以显为法：纯质论哲学"
+  description  = "纯质论法典：以显现之先验可能为根基，设立明性、自呈与纯质之统一体，重铸形而上学的起点。"
+
+  [outputs]
+  home = ["HTML","RSS","JSON"]
   images = ["/images/og-cover.png"]   # 放到 static/images/ 下
   titleSeparator = "·"
+  defaultColor = "auto"
 
-[outputs]
-  home = ["HTML", "RSS", "JSON"]
+  [permalinks]
+  posts = "/:sections/:slug/"
+
+  [sitemap]
+  changefreq = "weekly"
+  priority   = 0.6
+ 
 
 [menu]
   [[menu.main]]
