@@ -21,12 +21,13 @@ enableRobotsTXT = true
   disableBreadcrumb = false
   disableLandingPageButton = false
   description  = "纯质论法典：以显现之先验可能为根基，设立明性、自呈与纯质之统一体，重铸形而上学的起点。"
+  titleSeparator = "·"
+   disablePathToLower = true
 
   [outputs]
   home = ["HTML","RSS","JSON"]
   images = ["/images/og-cover.png"]   # 放到 static/images/ 下
-  titleSeparator = "·"
-   disablePathToLower = true
+  
   
 
   [permalinks]
