@@ -1,7 +1,7 @@
 ﻿+++
 title   = "第二编 · 纯质之动力学：从可能到秩序"
-slug    = "volume-2"
-url     = "/volumes/2/"
+slug    = "volume-1"
+url     = "/volumes/1/"
 weight  = 3
 chapter = true
 

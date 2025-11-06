@@ -109,7 +109,7 @@ var relearn_searchindex = [
     "description": "本编从明性之自足与自呈出发，演绎显化的必然动力：折、界、曲率、息。由此，时空、物能、因果、自组织与觉知的形上结构得以必然形成。",
     "tags": [],
     "title": "第二编 · 纯质之动力学：从可能到秩序",
-    "uri": "/volumes/2/index.html"
+    "uri": "/volumes/1/index.html"
   },
   {
     "breadcrumb": "纯质论 \u003e 明性之诗·poems \u003e 第一编 · 哲学的自返之路",
