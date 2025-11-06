@@ -550,3 +550,134 @@ strong, b {
   font-weight: 800 !important;
   color: var(--link-color);
 }
+
+/* ===== 纯质论·气质主题：冷白/月灰/静青 ===== */
+:root {
+  --MAIN-BG: #f8f9fb;          /* 页面底色，微暖冷白 */
+  --MAIN-TEXT: #0f172a;        /* 主文本深靛 */
+  --ACCENT: #2b6777;           /* 静青：链接与高亮 */
+  --SOFT: #94a3b8;            /* 次要信息 */
+  --CARD: #ffffff;            /* 卡片背景 */
+  --BORDER: #e5e7eb;          /* 边界 */
+}
+
+/* 侧栏（Relearn） */
+#sidebar {
+  background: linear-gradient(180deg, #0b1220 0%, #101828 100%); /* 深夜蓝黑 */
+  color: #e5e7eb;
+}
+#sidebar a, #sidebar .menu a {
+  color: #c7d2fe;
+}
+#sidebar .menu .active > a { 
+  color: #ffffff; 
+  font-weight: 600;
+}
+
+/* 页面背景与卡片 */
+body { background: var(--MAIN-BG); color: var(--MAIN-TEXT); }
+.article, .content, .container {
+  color: var(--MAIN-TEXT);
+}
+.card, .box, .admonition, .note, .comment {
+  background: var(--CARD);
+  border: 1px solid var(--BORDER);
+  box-shadow: 0 8px 24px rgba(2, 6, 23, .05);
+  border-radius: 12px;
+}
+
+/* 标题字距与呼吸 */
+h1, h2, .section-title {
+  letter-spacing: .02em;
+  line-height: 1.25;
+  margin: 1.2em 0 .6em;
+}
+.section-title { font-size: 1.6rem; font-weight: 700; }
+
+/* 命题/定义/证明块 */
+.theorem, .definition, .proof, .corollary, .clause, .note {
+  font-weight: 700;
+  color: var(--ACCENT);
+  margin-top: 1.2rem;
+}
+.proof-list li { margin: .35rem 0; }
+
+/* 链接与悬停 */
+a { color: var(--ACCENT); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+
+/* ===== 神殿体 · 殿门三石刻 ===== */
+.hero-verse {
+  max-width: 860px;
+ margin: 2vh auto 3vh;  /* 顶部更紧、底部稍保留气息 */
+  padding: 2.5rem 2rem;
+  text-align: center;
+  position: relative;
+  /* 微光晕，让文字像在石面上自显 */
+  background: radial-gradient(1200px 500px at 50% -20%, rgba(255,255,255,.85), rgba(255,255,255,0));
+  border-radius: 18px;
+}
+
+/* 行间的“呼吸”，让三句各自成碑 */
+.hero-verse .line + .line {
+  margin-top: 2.2rem; /* 行间距离更稳更庄 */
+}
+
+/* 轻微的下沿分界，像石阶 */
+.hero-verse::after {
+  content: "";
+  display: block;
+  width: 72%;
+  height: 1px;
+  margin: 2.2rem auto 0;
+  background: linear-gradient(90deg, rgba(2,6,23,0), rgba(2,6,23,.15), rgba(2,6,23,0));
+}
+
+/* 暗色模式的适配（若主题开启暗色） */
+@media (prefers-color-scheme: dark) {
+  .hero-verse {
+    background: radial-gradient(1200px 520px at 50% -20%, rgba(255,255,255,.06), rgba(255,255,255,0));
+  }
+  .hero-verse .line {
+    color: #e5e7eb;
+    text-shadow: none;
+  }
+  .hero-verse::after {
+    background: linear-gradient(90deg, rgba(229,231,235,0), rgba(229,231,235,.18), rgba(229,231,235,0));
+  }
+}
+
+.hero-sub{
+  text-align:center;
+  margin: 1.2rem auto 0;
+  color:#475569;             /* 静灰 */
+  font-family: "Source Han Sans", "Noto Sans SC", "PingFang SC", "Microsoft YaHei", sans-serif;
+  letter-spacing:.02em;
+}
+@media (prefers-color-scheme: dark){
+  .hero-sub{ color:#cbd5e1; }
+}
+
+/* 强制覆盖主题：三句碑刻体 */
+.hero-verse .line {
+ font-size: clamp(1.35rem, 1.5vw + 0.9rem, 1.9rem) !important;
+  font-weight: 800 !important;
+  line-height: 1.33 !important;
+  text-rendering: geometricPrecision;
+   letter-spacing: .02em;
+  line-height: 1.35;
+  color: #0f172a;            /* 深靛 */
+  margin: 0 0 1.8rem 0;
+  text-shadow: 0 1px 0 rgba(255,255,255,.4);
+}
+
+/* 首页标题变小、淡、退居檐下 */
+body.home main header h1,
+body.home .page header h1 {
+  font-size: 1rem !important;
+  font-weight: 500 !important;
+  opacity: 0.55 !important;
+  margin-bottom: 1rem !important;
+  letter-spacing: .08em;
+}
