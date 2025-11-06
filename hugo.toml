@@ -26,15 +26,16 @@ enableRobotsTXT = true
   home = ["HTML","RSS","JSON"]
   images = ["/images/og-cover.png"]   # 放到 static/images/ 下
   titleSeparator = "·"
-  defaultColor = "auto"
+   disablePathToLower = true
+  
 
   [permalinks]
   posts = "/:sections/:slug/"
 
   [sitemap]
-  changefreq = "weekly"
   priority   = 0.6
- 
+ defaultColor = "auto"
+
 
 [menu]
   [[menu.main]]

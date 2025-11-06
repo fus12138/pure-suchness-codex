@@ -44,3 +44,14 @@
   "inLanguage": "zh-CN"
 }
 </script>
+
+{{- /* Site head override - Pure Suchness */ -}}
+{{- $title := .Title -}}
+{{- if .IsHome -}}
+  {{- $title = site.Title -}}
+{{- end -}}
+<title>{{ $title }}</title>
+
+{{/* 建议顺便把 OG/Twitter 也统一，防止平台抓取带双冒号 */}}
+<meta property="og:title" content="{{ $title }}">
+<meta name="twitter:title" content="{{ $title }}">
