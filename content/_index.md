@@ -24,8 +24,8 @@ draft = false
 **明性的宣言：**
 
 <div class="hero-verse">
-  <p class="line">起点不在唯心唯物，而在显现之可能性。</p>
-  <p class="line">世界不依意识而自明，此自明之能，谓之「明性」。</p>
+  <p class="line">起点不在唯心唯物，而在显现。</p>
+  <p class="line">世界不依意识而自明显现，此自明之能，谓之「明性」。</p>
   <p class="line">纯质，非实体之名，乃自呈明性之统一位格。</p>
 </div>
 
