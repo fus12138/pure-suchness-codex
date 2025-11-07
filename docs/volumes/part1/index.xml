@@ -2,12 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>第一编 · 明性之必然与纯质之设立 · 纯质论 ·PURE SUCHNESS CODEX</title>
-    <link>http://localhost:1313/volumes/1/index.html</link>
+    <link>http://chunzhilun.cn/volumes/part1/index.html</link>
     <description>从显现的第零问题出发，本编演绎明性之必然、自呈之不可撤、纯质之位格与其先验统一。此为显现论的奠基卷。</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
-    <atom:link href="http://localhost:1313/volumes/1/index.xml" rel="self" type="application/rss+xml" />
-  </channel>
-</rss>application/rss+xml" />
+    <atom:link href="http://chunzhilun.cn/volumes/part1/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

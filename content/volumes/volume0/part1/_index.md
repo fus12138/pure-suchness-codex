@@ -1,7 +1,7 @@
 +++
 title = "显现之先验位阶之确立"
 slug = "prologue-zero"
-url = "/volumes/zero/01"
+url = "/volumes/zero/0"
 weight = 2
 chapter = true
 

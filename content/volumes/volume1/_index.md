@@ -1,8 +1,8 @@
 ﻿+++
 title   = "卷一 · 明性之源与显化之基"
-slug    = "volume-i"
-url     = "/volumes/volume-i/"
-weight  = 10
+slug    = "volume-1"
+url     = "/volumes/volume-1/"
+weight  = 1
 chapter = true
 
 # —— 页面定位 ——

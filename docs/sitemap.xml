@@ -17,6 +17,10 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>http://chunzhilun.cn/volumes/volume-1/index.html</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>http://chunzhilun.cn/poems/prelude/index.html</loc>
     <priority>0.6</priority>
   </url>
@@ -33,7 +37,7 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>http://chunzhilun.cn/volumes/1/index.html</loc>
+    <loc>http://chunzhilun.cn/volumes/part1/index.html</loc>
     <priority>0.6</priority>
   </url>
   <url>
@@ -45,15 +49,11 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>http://chunzhilun.cn/volumes/zero/01/index.html</loc>
+    <loc>http://chunzhilun.cn/volumes/zero/0/index.html</loc>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>http://chunzhilun.cn/notes/consciousness-essence/index.html</loc>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>http://chunzhilun.cn/volumes/1/index.html</loc>
     <priority>0.6</priority>
   </url>
   <url>
@@ -62,6 +62,10 @@
   </url>
   <url>
     <loc>http://chunzhilun.cn/poems/index.html</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>http://chunzhilun.cn/volumes/part2/index.html</loc>
     <priority>0.6</priority>
   </url>
   <url>
@@ -78,10 +82,6 @@
   </url>
   <url>
     <loc>http://chunzhilun.cn/about/index.html</loc>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>http://chunzhilun.cn/volumes/volume-i/index.html</loc>
     <priority>0.6</priority>
   </url>
   <url>

@@ -1,8 +1,8 @@
 ﻿+++
 title   = "第二编 · 纯质之动力学：从可能到秩序"
 slug    = "volume-1"
-url     = "/volumes/1/"
-weight  = 3
+url     = "/volumes/part2/"
+weight  = 4
 chapter = true
 
 description = "本编从明性之自足与自呈出发，演绎显化的必然动力：折、界、曲率、息。由此，时空、物能、因果、自组织与觉知的形上结构得以必然形成。"
@@ -17,7 +17,7 @@ keywords = [
 ]
 
 series   = "Pure Suchness Codex"
-role     = "Volume II — 显化与秩序的动力学"
+role     = "Volume I — 显化与秩序的动力学"
 language = "zh-CN"
 
 # 分享卡片（可留待上传）
@@ -27,8 +27,9 @@ disableBreadcrumb = false
 toc    = false
 draft  = false
 
-aliases = ["/vol2","/卷二","/第二编"]
+aliases = ["/vol","/卷一","/第二编"]
 +++
+
 <div class="section-title">§2.1 定义系统</div>
 
 <ul class="axiomlist deflist">

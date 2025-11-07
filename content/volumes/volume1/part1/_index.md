@@ -1,7 +1,7 @@
 +++
 title   = "第一编 · 明性之必然与纯质之设立"
 slug    = "volume-1"
-url     = "/volumes/1/"
+url     = "/volumes/part1/"
 weight  = 2
 chapter = true
 
@@ -27,6 +27,7 @@ toc    = false
 draft  = false
 aliases = ["/vol1","/卷一","/第一编"]
 +++
+
 <div class="section-title">§1.1条件之必然</div>
 
 <div class="article">
