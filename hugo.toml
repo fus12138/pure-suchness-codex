@@ -49,30 +49,35 @@ enableRobotsTXT = true
     url = "/volumes/"
     weight = 2
 
+    [[menu.main]]
+    name = "introduction 导论"
+    url = "/introduction/"
+    weight = 3
+
   [[menu.main]]
     name = "Poems 明性之诗"
     url = "/poems/"
-    weight = 3
+    weight = 4
 
   [[menu.main]]
     name = "Essays 论文"
     url = "/essays/"
-    weight = 4
+    weight = 5
 
   [[menu.main]]
     name = "Meditations 明性实践与修行"
     url = "/meditations/"
-    weight = 5
+    weight = 6
 
  [[menu.main]]
     name = "Notes 思想随笔"
     url = "/notes/"
-    weight = 6
+    weight = 7
 
   [[menu.main]]
     name = "About 关于"
     url = "/about/"
-    weight = 7
+    weight = 8
 
 [markup]
   [markup.goldmark]
