@@ -40,6 +40,7 @@ draft = false
 
 本网站，是纯质论思想的完整呈现：  
 **法典三卷** ——体系的逻辑构建   
+**明性导论** ——体系的严密演绎  
 **明性之诗** ——本源的诗意表达   
 **学术论文** ——严谨的学理论证    
 **明性修行** ——意识的实践道途      
@@ -49,6 +50,7 @@ draft = false
 
 <div class="grid cards" style="grid-template-columns: repeat(2, 1fr); gap: 16px;">
   <a class="card" href="/volumes/"><strong>法典·Volumes</strong><br/>体系总纲</a>
+   <a class="card" href="/introduction/"><strong>明性导论·introduction</strong><br/>体系的严密演绎</a>
   <a class="card" href="/poems/"><strong>明性之诗·poems</strong><br/>诗性文章与朗诵</a>
   <a class="card" href="/essays/"><strong>论文·Essays</strong><br/>论文摘要与外链</a>
   <a class="card" href="/meditations/"><strong>明性修行·Meditations</strong><br/>意识光谱与修行四阶</a>

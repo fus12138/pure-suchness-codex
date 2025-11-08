@@ -1,5 +1,5 @@
 +++
-title = "纯质论导论：入明之门"
+title = "明性导论·introduction"
 slug = "introduction"
 url = "/introduction/"
 weight = 3
