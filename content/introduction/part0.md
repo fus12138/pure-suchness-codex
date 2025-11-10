@@ -1,5 +1,5 @@
 +++
-title = "§0 显现之先验位阶确立"
+title = "§0 显现作为哲学的零度起点"
 slug = "transcendental-appearance"
 weight = 1
 chapter = true
