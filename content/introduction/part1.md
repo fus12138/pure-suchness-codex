@@ -1,5 +1,5 @@
 +++
-title = "§1 从事实到根据："明性"的先验必然性"
+title = "§1 从事实到根据：明性的先验必然性"
 slug = "necessity-of-luminous-capacity"
 weight = 2
 chapter = true
