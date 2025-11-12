@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>明性导论·introduction · 纯质论 ·PURE SUCHNESS CODEX</title>
+    <title>纯质导论·introduction · 纯质论 ·PURE SUCHNESS CODEX</title>
     <link>http://chunzhilun.cn/introduction/index.html</link>
     <description>为纯质论奠基之序章：为何谈明性？何以返显现？何以重新开辟哲学的起点？本导论引领读者从概念世界回到显现自明，明性自呈，步入纯质之境。</description>
     <generator>Hugo</generator>
@@ -27,6 +27,41 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://chunzhilun.cn/introduction/nature-of-luminosity-and-pure-suchness/index.html</guid>
       <description>明性之自呈、本性展开与纯质的奠基性设立。</description>
+    </item>
+    <item>
+      <title>§3 纯质自动：从自呈到自显的必然性</title>
+      <link>http://chunzhilun.cn/introduction/auto-manifestation/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://chunzhilun.cn/introduction/auto-manifestation/index.html</guid>
+      <description>纯质并非静止之端点；自呈必逻辑地自显，确立“必然自动”的先验动力学。</description>
+    </item>
+    <item>
+      <title>§4 无限潜能：动之本性</title>
+      <link>http://chunzhilun.cn/introduction/infinite-potential-nature-of-motion/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://chunzhilun.cn/introduction/infinite-potential-nature-of-motion/index.html</guid>
+      <description>论证纯质之动的无外限、无先验质料约束、仅受内在一致性护持与非终止性，从而确立“潜能无限”的先验规定。</description>
+    </item>
+    <item>
+      <title>§5 自限之折：内在规定的初始行动</title>
+      <link>http://chunzhilun.cn/introduction/self-limiting-fold-origin-of-neng-suo/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://chunzhilun.cn/introduction/self-limiting-fold-origin-of-neng-suo/index.html</guid>
+      <description>从无限潜能迈向可分辨的最小自限：‘折’的先验必要性、约束与作为动力学基石的地位。</description>
+    </item>
+    <item>
+      <title>§6 曲率：自限的强度与模态</title>
+      <link>http://chunzhilun.cn/introduction/curvature-kappa/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://chunzhilun.cn/introduction/curvature-kappa/index.html</guid>
+      <description>定义曲率（κ）为‘折’之自限强度的先验量纲，论证其非均质性与分布约束，并奠定后续显现结构的蓝图。</description>
+    </item>
+    <item>
+      <title>§7 能所同起：功能分化的初始构成</title>
+      <link>http://chunzhilun.cn/introduction/neng-suo-co-arising/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://chunzhilun.cn/introduction/neng-suo-co-arising/index.html</guid>
+      <description>在曲率差的调制下，“折”首次开出能明与所明这一体两向的功能位差，奠定显现的最小联合单元。</description>
     </item>
   </channel>
 </rss>

@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="zh-cn" dir="ltr" itemscope itemtype="http://schema.org/Article" data-r-output-format="html">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="generator" content="Hugo 0.152.2">
+    <meta name="generator" content="Relearn 8.2.0">
+    <meta name="description" content="定义曲率（κ）为‘折’之自限强度的先验量纲，论证其非均质性与分布约束，并奠定后续显现结构的蓝图。">
+    <meta name="author" content="Zhou Luo (周罗)">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="§6 曲率：自限的强度与模态 · 纯质论 ·PURE SUCHNESS CODEX">
+    <meta name="twitter:description" content="定义曲率（κ）为‘折’之自限强度的先验量纲，论证其非均质性与分布约束，并奠定后续显现结构的蓝图。">
+    <meta property="og:url" content="http://chunzhilun.cn/introduction/curvature-kappa/index.html">
+    <meta property="og:site_name" content="纯质论 ·PURE SUCHNESS CODEX">
+    <meta property="og:title" content="§6 曲率：自限的强度与模态 · 纯质论 ·PURE SUCHNESS CODEX">
+    <meta property="og:description" content="定义曲率（κ）为‘折’之自限强度的先验量纲，论证其非均质性与分布约束，并奠定后续显现结构的蓝图。">
+    <meta property="og:locale" content="zh_cn">
+    <meta property="og:type" content="article">
+    <meta property="article:section" content="纯质导论·introduction">
+    <meta itemprop="name" content="§6 曲率：自限的强度与模态 · 纯质论 ·PURE SUCHNESS CODEX">
+    <meta itemprop="description" content="定义曲率（κ）为‘折’之自限强度的先验量纲，论证其非均质性与分布约束，并奠定后续显现结构的蓝图。">
+    <meta itemprop="wordCount" content="47">
+    <meta itemprop="keywords" content="纯质论,曲率,κ,先验动力学,自限,能所,位,界,形而上学">
+    <title>§6 曲率：自限的强度与模态 · 纯质论 ·PURE SUCHNESS CODEX</title>
+    <link href="/css/auto-complete/auto-complete.min.css?1762957988" rel="stylesheet">
+    <script src="/js/auto-complete/auto-complete.min.js?1762957988" defer></script>
+    <script src="/js/search-lunr.min.js?1762957988" defer></script>
+    <script src="/js/search.min.js?1762957988" defer></script>
+    <script>
+      window.relearn = window.relearn || {};
+      window.relearn.index_js_url="/searchindex.zh.js?1762957988";
+    </script>
+    <script src="/js/lunr/lunr.min.js?1762957988" defer></script>
+    <script src="/js/lunr/lunr.stemmer.support.min.js?1762957988" defer></script>
+    <script src="/js/lunr/lunr.multi.min.js?1762957988" defer></script>
+    <script src="/js/lunr/lunr.zh.min.js?1762957988" defer></script>
+    <script>
+      window.relearn = window.relearn || {};
+      window.relearn.contentLangs=['zh'];
+    </script>
+    <link href="/fonts/fontawesome/css/fontawesome-all.min.css?1762957988" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/fonts/fontawesome/css/fontawesome-all.min.css?1762957988" rel="stylesheet"></noscript>
+    <link href="/css/perfect-scrollbar/perfect-scrollbar.min.css?1762957988" rel="stylesheet">
+    <link href="/css/theme.min.css?1762957988" rel="stylesheet">
+    <link href="/css/format-html.min.css?1762957988" rel="stylesheet" id="R-format-style">
+    <script>
+      window.relearn = window.relearn || {};
+      // configuration
+      window.relearn.min = `.min`;
+      window.relearn.path='\/introduction\/curvature-kappa\/index.html';
+      window.relearn.relBasePath='..\/..';
+      window.relearn.relBaseUri='..\/..';
+      window.relearn.absBaseUri='http:\/\/chunzhilun.cn';
+      window.relearn.disableAnchorCopy=false;
+      window.relearn.disableAnchorScrolling=false;
+      window.relearn.disableInlineCopyToClipboard=false;
+      window.relearn.enableBlockCodeWrap=true;
+      // legal
+      window.relearn.getItem = (s,n) => {return s.getItem(n)};
+      window.relearn.setItem = (s,n,v) => {return s.setItem(n,v)};
+      window.relearn.removeItem = (s,n) => {return s.removeItem(n)};
+      // translations
+      window.T_Copy_to_clipboard = `复制到剪贴板`;
+      window.T_Copied_to_clipboard = `复制到剪贴板！`;
+      window.T_Copy_link_to_clipboard = `将链接复制到剪贴板`;
+      window.T_Link_copied_to_clipboard = `链接复制到剪贴板！`;
+      window.T_Reset_view = `重置视图`;
+      window.T_View_reset = `查看重置！`;
+      window.T_No_results_found = `找不到"{0}"的结果`;
+      window.T_N_results_found = `为"{0}"找到 {1} 个结果`;
+      // variant stuff
+      window.relearn.themevariants = [ 'auto' ];
+      window.relearn.customvariantname = "my-custom-variant";
+      window.relearn.changeVariant = function(variant) {
+        var oldVariant = document.documentElement.dataset.rThemeVariant;
+        window.relearn.setItem(window.localStorage, window.relearn.absBaseUri + "/variant", variant);
+        document.documentElement.dataset.rThemeVariant = variant;
+        if (oldVariant != variant) {
+          document.dispatchEvent( new CustomEvent('themeVariantLoaded', { detail: { variant, oldVariant } }) );
+          window.relearn.markVariant();
+        }
+      }
+      window.relearn.markVariant = function() {
+        var variant = window.relearn.getItem(window.localStorage, window.relearn.absBaseUri + "/variant");
+        document.querySelectorAll(".R-variantswitcher select").forEach((select) => {select.value = variant;});
+      }
+      window.relearn.initVariant = function() {
+        var variant = window.relearn.getItem(window.localStorage, window.relearn.absBaseUri + "/variant") ?? "";
+        if( variant == window.relearn.customvariantname ){
+        }else if( !variant || !window.relearn.themevariants.includes(variant) ){
+          variant = window.relearn.themevariants[0];
+          window.relearn.setItem(window.localStorage, window.relearn.absBaseUri + "/variant", variant);
+        }
+        document.documentElement.dataset.rThemeVariant = variant;
+      }
+      window.relearn.initVariant();
+      window.relearn.markVariant();
+    </script><link rel="stylesheet" href="/css/custom.css">
+<link rel="canonical" href="http://chunzhilun.cn/introduction/curvature-kappa/">
+<meta name="description" content="定义曲率（κ）为‘折’之自限强度的先验量纲，论证其非均质性与分布约束，并奠定后续显现结构的蓝图。"><meta name="keywords" content="纯质论, 曲率, κ, 先验动力学, 自限, 能所, 位, 界, 形而上学">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="纯质论 ·PURE SUCHNESS CODEX">
+<meta property="og:title" content="§6 曲率：自限的强度与模态">
+<meta property="og:description" content="定义曲率（κ）为‘折’之自限强度的先验量纲，论证其非均质性与分布约束，并奠定后续显现结构的蓝图。"><meta property="og:url" content="http://chunzhilun.cn/introduction/curvature-kappa/">
+
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="§6 曲率：自限的强度与模态">
+<meta name="twitter:description" content="定义曲率（κ）为‘折’之自限强度的先验量纲，论证其非均质性与分布约束，并奠定后续显现结构的蓝图。">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "\"纯质论 ·PURE SUCHNESS CODEX\"",
+  "url": "\"http://chunzhilun.cn/\"",
+  "description": "\"定义曲率（κ）为‘折’之自限强度的先验量纲，论证其非均质性与分布约束，并奠定后续显现结构的蓝图。\"",
+  "inLanguage": "zh-CN"
+}
+</script>
+
+
+  </head>
+  <body class="mobile-support html" data-url="/introduction/curvature-kappa/index.html">
+    <div id="R-body" class="default-animation">
+      <div id="R-body-overlay"></div>
+      <nav id="R-topbar">
+        <div class="topbar-wrapper">
+          <div class="topbar-sidebar-divider"></div>
+          <div class="topbar-area topbar-area-start" data-area="start">
+            <div class="topbar-button topbar-button-sidebar" data-content-empty="disable" data-width-s="show" data-width-m="hide" data-width-l="hide">
+<span class="btn cstyle link noborder notitle interactive"><button onclick="toggleNav()" type="button"title="导航 (CTRL&#43;ALT&#43;n)"><i class="fa-fw fas fa-bars"></i></button></span>
+            </div>
+            <div class="topbar-button topbar-button-toc" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show">
+<span class="btn cstyle link noborder notitle interactive"><button onclick="toggleTopbarFlyout(this)" type="button"title="目录 (CTRL&#43;ALT&#43;t)"><i class="fa-fw fas fa-list-alt"></i></button></span>
+              <div class="topbar-content">
+                <div class="topbar-content-wrapper"> 
+                </div>
+              </div>
+            </div>
+          </div>
+          <ol class="topbar-breadcrumbs breadcrumbs highlightable" itemscope itemtype="http://schema.org/BreadcrumbList"><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><a itemprop="item" href="/index.html"><span itemprop="name">纯质论</span></a><meta itemprop="position" content="1">&nbsp;>&nbsp;</li><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><a itemprop="item" href="/introduction/index.html"><span itemprop="name">纯质导论·introduction</span></a><meta itemprop="position" content="2">&nbsp;>&nbsp;</li><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><span itemprop="name">§6 曲率：自限的强度与模态</span><meta itemprop="position" content="3"></li>
+          </ol>
+          <div class="topbar-area topbar-area-end" data-area="end">
+            <div class="topbar-button topbar-button-prev" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show">
+<span class="btn cstyle link noborder notitle interactive"><a href="/introduction/self-limiting-fold-origin-of-neng-suo/index.html" title="§5 自限之折：内在规定的初始行动 (🡐)"><i class="fa-fw fas fa-chevron-left"></i></a></span>
+            </div>
+            <div class="topbar-button topbar-button-next" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show">
+<span class="btn cstyle link noborder notitle interactive"><a href="/introduction/neng-suo-co-arising/index.html" title="§7 能所同起：功能分化的初始构成 (🡒)"><i class="fa-fw fas fa-chevron-right"></i></a></span>
+            </div>
+            <div class="topbar-button topbar-button-more" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show">
+<span class="btn cstyle link noborder notitle interactive"><button onclick="toggleTopbarFlyout(this)" type="button"title="更多"><i class="fa-fw fas fa-ellipsis-v"></i></button></span>
+              <div class="topbar-content">
+                <div class="topbar-content-wrapper">
+                  <div class="topbar-area topbar-area-more" data-area="more">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div id="R-main-overlay"></div>
+      <main id="R-body-inner" class="highlightable introduction" tabindex="-1">
+        <div class="flex-block-wrapper">
+<article class="default">
+  <header class="headline">
+  </header>
+
+<h1 id="6-曲率自限的强度与模态">§6 曲率：自限的强度与模态</h1>
+
+<p><strong>§6 曲率：自限的强度与模态</strong></p>
+<p>纯质经由“折”而自限，已确立其自我规定的初始行动。理性必须追问：此“折”于纯质全域中，其强度是否恒常？逻辑的审察指向否定的答案。<strong>曲率之概念，由此被逼出：它作为“折”之强度的先验量纲，是先验动力学展开的必然环节。</strong></p>
+<p><strong>§6.1 曲率的定义与本性</strong></p>
+<p><strong>曲率（κ），</strong> 乃“折”之自限强度之局部度量，其性质如下：  <br>
+<strong>一、形上量纲：</strong>  曲率非经验空间中的弯曲概念，而是纯粹先验的动力学量纲，标识“折”的行动在纯质场中的局部紧张程度。   <br>
+<strong>二、强度谱系：</strong>  κ≥ 0。κ=0 标识无折之纯粹同一；κ&gt;0 标识自限已然发生；κ值的高低，直接决定后续显现形态的清晰度、稳定性与确定性。    <br>
+<strong>三、功能指向：</strong>  高曲率区域，意味着“折”的行动更为集中、强烈，显现趋于凝定与个体化；低曲率区域，则意味着行动更为弥漫、和缓，显现趋于流变与关联。</p>
+<p><strong>§6.2 曲率非均质的必然性</strong></p>
+<p>设定纯质全域曲率均一（恒为某κ&gt;0），则须面对三重逻辑困境：   <br>
+<strong>一、与无限潜能矛盾：</strong> 绝对均质的曲率分布，构成一种极强的、未加说明的外在限定，意味着纯质之动无法产生内在的强度差异，此与§4所证立的“无限潜能”及其“不设上界的自规定能力”直接冲突。   <br>
+<strong>二、与显现多样性矛盾：</strong> 若曲率均一，则“折”所开创的规定性亦将均一，无从解释显现世界中形态、稳定性、层级性的无限多样性。现象世界的丰富性要求其先验根据中必须包含差异化的可能性。    <br>
+<strong>三、与动力学活性冲突：</strong>  均质曲率将导致纯质之动失去内在的张力梯度与势能差，整个动力学进程有陷入均质平衡、无法孕育复杂结构的趋势，从而令“显现”之进程趋于空洞。</p>
+<p>故，逻辑必然要求：纯质全域之曲率，不可能均质；其差异化分布，是无限潜能实现其丰富性的内在条件。</p>
+<p><strong>§6.3 曲率分布的约束原则</strong></p>
+<p>一切曲率分布与其演化，必须与纯质之同一性与自呈性相容：不得导出自悖之态（例如“同时既显且非显”的位），不得破坏显现之域的一体性。     <br>
+<strong>一、内在性约束：</strong>  曲率之差异，源于纯质自身动能的内在不均衡性，是同一动能在不同“处”的自身强度调制，不假外求。       <br>
+<strong>二、一致性护持：</strong> 曲率的任何分布，必须符合【同一一致性公设§5】 。任何将导致逻辑自悖（如产生同时既显非显之位）的曲率分布，被视为不可能实现。   <br>
+<strong>三、连续与突跃：</strong>  曲率变化可呈现连续平滑的谱系，亦可因内在张力积累而出现阈值性的突跃。此二者共同构成了动力学进程的丰富节律。</p>
+<p><strong>§6.4 曲率作为后续显现之先验蓝图</strong></p>
+<p>曲率差异的确立，为整个显现宇宙提供了动力学的深层架构：  <br>
+一、它是“能所”相位中功能不对称性的强度根源（如“能”相位往往关联更高曲率）。 <br>
+二、它是“位”之差异性（如核心与边缘、实体与场域）的先验规定者。  <br>
+三、它直接决定了“界”的生成位置与稳固程度——“界”正是在曲率梯度的高阈值区得以凝结。</p>
+<p><strong>§6.5 结论</strong></p>
+<p><strong>曲率，是“折”之行动的内在灵魂，是同一中之差别的强度密码。</strong> 它使纯质之无限潜能，获得了实现其无限多样性的动力学图景。</p>
+<p>曲率之差既已奠立，则“折”之行动便可在其差异化强度的驱动下，开创出其首个、也是最根本的功能性构型——“能”与“所”的动态关联。</p>
+
+  <footer class="footline">
+  </footer>
+</article>
+        </div>
+      </main>
+    </div>
+    <aside id="R-sidebar" class="default-animation">
+      <div id="R-header-topbar" class="default-animation"></div>
+      <div id="R-header-wrapper" class="default-animation">
+        <div id="R-header" class="default-animation">
+          <a id="R-logo" class="R-default" href="/index.html">
+            <div class="logo-title">纯质论 ·PURE SUCHNESS CODEX</div>
+          </a>
+        </div>
+        <search><form action="/search/index.html" method="get">
+          <div class="searchbox default-animation">
+            <button class="search-detail" type="submit" title="搜索 (CTRL+ALT+f)"><i class="fas fa-search"></i></button>
+            <label class="a11y-only" for="R-search-by">搜索</label>
+            <input data-search-input id="R-search-by" name="search-by" class="search-by" type="search" placeholder="搜索...">
+            <button class="search-clear" type="button" data-search-clear="" title="清除搜索"><i class="fas fa-times" title="清除搜索"></i></button>
+          </div>
+        </form></search>
+      </div>
+      <div id="R-homelinks" class="default-animation homelinks">
+        <div class="R-menu-divider default-animation">
+          <hr class="padding">
+        </div>
+        <div class="R-sidebarmenu R-shortcutmenu-homelinks">
+          <ul class="space collapsible-menu">
+            <li class="" data-nav-url="/index.html"><a class="padding" href="/index.html"><i class="fa-fw fas fa-home"></i> Home</a></li>
+          </ul>
+        </div>
+        <div class="R-menu-divider default-animation">
+          <hr class="padding">
+        </div>
+        <div class="R-sidebarmenu R-shortcutmenu-headercontrols">
+          <ul class="">
+          </ul>
+        </div>
+        <div class="R-menu-divider default-animation">
+          <hr class="padding">
+        </div>
+      </div>
+      <div id="R-content-wrapper" class="highlightable">
+        <div class="R-sidebarmenu R-shortcutmenu-main">
+          <ul class="enlarge morespace collapsible-menu">
+            <li class="" data-nav-url="/volumes/index.html"><a class="padding" href="/volumes/index.html">法典 · Volumes<i class="fa-fw fas fa-check read-icon"></i></a><ul id="R-subsections-7e8a390ef4f635c11dd336d60b7c749b" class="collapsible-menu"></ul></li>
+            <li class="parent " data-nav-url="/introduction/index.html"><a class="padding" href="/introduction/index.html">纯质导论·introduction<i class="fa-fw fas fa-check read-icon"></i></a><ul id="R-subsections-e1ed3a04f1f57a27be4a8d0eb274be18" class="collapsible-menu">
+            <li class="" data-nav-url="/introduction/transcendental-appearance/index.html"><a class="padding" href="/introduction/transcendental-appearance/index.html">§0 显现作为哲学的零度起点<i class="fa-fw fas fa-check read-icon"></i></a></li>
+            <li class="" data-nav-url="/introduction/necessity-of-luminous-capacity/index.html"><a class="padding" href="/introduction/necessity-of-luminous-capacity/index.html">§1 从事实到根据：明性的先验必然性<i class="fa-fw fas fa-check read-icon"></i></a></li>
+            <li class="" data-nav-url="/introduction/nature-of-luminosity-and-pure-suchness/index.html"><a class="padding" href="/introduction/nature-of-luminosity-and-pure-suchness/index.html">§2 明性之本性与纯质之设立<i class="fa-fw fas fa-check read-icon"></i></a></li>
+            <li class="" data-nav-url="/introduction/auto-manifestation/index.html"><a class="padding" href="/introduction/auto-manifestation/index.html">§3 纯质自动：从自呈到自显的必然性<i class="fa-fw fas fa-check read-icon"></i></a></li>
+            <li class="" data-nav-url="/introduction/infinite-potential-nature-of-motion/index.html"><a class="padding" href="/introduction/infinite-potential-nature-of-motion/index.html">§4 无限潜能：动之本性<i class="fa-fw fas fa-check read-icon"></i></a></li>
+            <li class="" data-nav-url="/introduction/self-limiting-fold-origin-of-neng-suo/index.html"><a class="padding" href="/introduction/self-limiting-fold-origin-of-neng-suo/index.html">§5 自限之折：内在规定的初始行动<i class="fa-fw fas fa-check read-icon"></i></a></li>
+            <li class="active " data-nav-url="/introduction/curvature-kappa/index.html"><a class="padding" href="/introduction/curvature-kappa/index.html">§6 曲率：自限的强度与模态<i class="fa-fw fas fa-check read-icon"></i></a></li>
+            <li class="" data-nav-url="/introduction/neng-suo-co-arising/index.html"><a class="padding" href="/introduction/neng-suo-co-arising/index.html">§7 能所同起：功能分化的初始构成<i class="fa-fw fas fa-check read-icon"></i></a></li></ul></li>
+            <li class="" data-nav-url="/poems/index.html"><a class="padding" href="/poems/index.html">明性之诗·poems<i class="fa-fw fas fa-check read-icon"></i></a><ul id="R-subsections-10d95fa16566a887c9993d704da9f226" class="collapsible-menu"></ul></li>
+            <li class="" data-nav-url="/essays/index.html"><a class="padding" href="/essays/index.html">学术论文·Essays<i class="fa-fw fas fa-check read-icon"></i></a></li>
+            <li class="" data-nav-url="/meditations/index.html"><a class="padding" href="/meditations/index.html">明性修行·Meditations<i class="fa-fw fas fa-check read-icon"></i></a></li>
+            <li class="" data-nav-url="/notes/index.html"><a class="padding" href="/notes/index.html">思想随笔 · Notes<i class="fa-fw fas fa-check read-icon"></i></a><ul id="R-subsections-56ddd28e5c6776f76f8fbdd8face0232" class="collapsible-menu"></ul></li>
+            <li class="" data-nav-url="/about/index.html"><a class="padding" href="/about/index.html">关于作者 · About<i class="fa-fw fas fa-check read-icon"></i></a></li>
+          </ul>
+        </div>
+        <div class="R-sidebarmenu R-shortcutmenu-shortcuts">
+          <ul class="space collapsible-menu">
+          </ul>
+        </div>
+        <div id="R-footer-margin"></div>
+        <div class="R-menu-divider default-animation">
+          <hr class="padding">
+        </div>
+        <div class="R-sidebarmenu R-shortcutmenu-footercontrols">
+          <ul class="">
+            <li class="R-historyclearer">
+              <div class="padding menu-control">
+                <i class="fa-fw fas fa-history"></i>
+                <span>&nbsp;</span>
+                <div class="control-style">
+                  <button>清理历史记录</button>
+                </div>
+                <div class="clear"></div>
+              </div>
+            </li>
+          </ul>
+        </div>
+<div id="R-footer"><p>Built with <a href="https://github.com/McShelby/hugo-theme-relearn" title="love"><i class="fas fa-heart"></i></a> by <a href="https://gohugo.io/">Hugo</a></p></div>
+      </div>
+    </aside>
+    <script src="/js/clipboard/clipboard.min.js?1762957988" defer></script>
+    <script src="/js/perfect-scrollbar/perfect-scrollbar.min.js?1762957988" defer></script>
+    <script src="/js/theme.min.js?1762957988" defer></script>
+  </body>
+</html>
