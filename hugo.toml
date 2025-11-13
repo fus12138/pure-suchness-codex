@@ -23,6 +23,7 @@ enableRobotsTXT = true
   description  = "纯质论法典：以显现之先验可能为根基，设立明性、自呈与纯质之统一体，重铸形而上学的起点。"
   titleSeparator = "·"
    disablePathToLower = true
+   footer = '<p><a href="https://beian.miit.gov.cn/" target="_blank">赣ICP备2025076144号</a></p>'
 
   [outputs]
   home = ["HTML","RSS","JSON"]

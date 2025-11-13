@@ -97,15 +97,11 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>http://chunzhilun.cn/introduction/self-limiting-fold-origin-of-neng-suo/index.html</loc>
-    <priority>0.6</priority>
-  </url>
-  <url>
     <loc>http://chunzhilun.cn/meditations/index.html</loc>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>http://chunzhilun.cn/introduction/curvature-kappa/index.html</loc>
+    <loc>http://chunzhilun.cn/introduction/self-limiting-fold-origin-of-neng-suo/index.html</loc>
     <priority>0.6</priority>
   </url>
   <url>
@@ -118,6 +114,10 @@
   </url>
   <url>
     <loc>http://chunzhilun.cn/about/index.html</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>http://chunzhilun.cn/introduction/curvature-kappa/index.html</loc>
     <priority>0.6</priority>
   </url>
   <url>
